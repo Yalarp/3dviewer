@@ -1,0 +1,3221 @@
+/*
+ * HYPERION DIMENSIONAL GATEWAY PROTOCOL - QUANTUM REALITY ENGINE CSS
+ * Version ∞.9.8.7 (ULTIMATE EDITION)
+ * Reality distortion field: MAXIMUM
+ * Aesthetic overload: ENGAGED
+ */
+
+/* --- ENHANCED GLOBAL STYLES & QUANTUM VARIABLES --- */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono:wght@400&family=Orbitron:wght@400;700;900&family=Audiowide&family=Electrolize:wght@400&display=swap');
+
+:root {
+    /* Core Quantum Colors */
+    --color-primary-cyan: #00ffff;
+    --color-primary-neon-cyan: #00f5ff;
+    --color-primary-electric-cyan: #00e5ff;
+    --color-primary-green: #00ff41;
+    --color-primary-acid-green: #39ff14;
+    --color-primary-magenta: #ff0080;
+    --color-primary-hot-pink: #ff1493;
+    --color-primary-yellow: #ffff00;
+    --color-primary-laser-yellow: #ffff33;
+    --color-primary-orange: #ff4000;
+    --color-primary-nuclear-orange: #ff6600;
+    --color-primary-purple: #8000ff;
+    --color-primary-violet: #9400d3;
+    
+    /* Dark Matter Backgrounds */
+    --color-bg-void: #000000;
+    --color-bg-deep-space: #000005;
+    --color-bg-quantum-field: #00000a;
+    --color-bg-dimension: #000011;
+    --color-text-plasma: #ffffff;
+    --color-text-energy: #f0f8ff;
+    
+    /* Quantum Glow Intensities */
+    --glow-micro: 0 0 2px;
+    --glow-subtle: 0 0 5px;
+    --glow-standard: 0 0 10px;
+    --glow-intense: 0 0 20px;
+    --glow-extreme: 0 0 40px;
+    --glow-nuclear: 0 0 80px;
+    --glow-dimensional: 0 0 120px;
+    
+    /* Quantum Physics */
+    --transition-instant: 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --transition-smooth: 0.3s cubic-bezier(0.4, 0.0, 0.2, 1);
+    --transition-bounce: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-warp: 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+    
+    /* Holographic Effects */
+    --hologram-shift: 0deg;
+    --matrix-pulse: 1;
+    --reality-distortion: 0;
+    --quantum-flux: 0;
+}
+
+/* Advanced CSS Properties for Ultimate Effects */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    background: 
+        /* Quantum Field Layers */
+        radial-gradient(ellipse at top left, rgba(0, 255, 255, 0.08) 0%, transparent 35%),
+        radial-gradient(ellipse at top right, rgba(255, 0, 128, 0.08) 0%, transparent 35%),
+        radial-gradient(ellipse at bottom left, rgba(0, 255, 65, 0.06) 0%, transparent 40%),
+        radial-gradient(ellipse at bottom right, rgba(128, 0, 255, 0.06) 0%, transparent 40%),
+        radial-gradient(circle at center, rgba(255, 255, 0, 0.02) 0%, transparent 60%),
+        /* Animated Star Field */
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%2300ffff' points='50 0 60 40 100 50 60 60 50 100 40 60 0 50 40 40'/%3E%3C/g%3E%3C/svg%3E") repeat,
+        /* Base Void */
+        linear-gradient(135deg, var(--color-bg-void) 0%, var(--color-bg-deep-space) 50%, var(--color-bg-quantum-field) 100%);
+    
+    background-size: 
+        600px 600px,
+        800px 800px, 
+        700px 700px,
+        900px 900px,
+        1200px 1200px,
+        20px 20px,
+        100% 100%;
+    
+    background-attachment: fixed;
+    background-position: 
+        0% 0%,
+        100% 0%,
+        0% 100%,
+        100% 100%,
+        50% 50%,
+        0 0,
+        0 0;
+    
+    color: var(--color-primary-cyan);
+    font-family: 'Electrolize', 'Share Tech Mono', monospace;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    overflow-x: hidden;
+    
+    /* Ultimate Animations */
+    animation: 
+        quantumFieldPulse 20s infinite ease-in-out,
+        starFieldDrift 60s linear infinite,
+        dimensionalShift 45s infinite alternate ease-in-out;
+    
+    /* Advanced Filter Effects */
+    filter: 
+        contrast(1.1) 
+        brightness(1.05)
+        saturate(1.2);
+    
+    /* Backdrop Effects */
+    backdrop-filter: blur(0.5px);
+}
+
+/* Enhanced Typography with Quantum Properties */
+font {
+    display: inline;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: var(--glow-subtle) currentColor;
+    position: relative;
+    transition: all var(--transition-smooth);
+}
+
+/* Dynamic Color Glows with Chromatic Aberration */
+font[color="#ff0080"] { 
+    text-shadow: 
+        var(--glow-intense) var(--color-primary-magenta),
+        var(--glow-standard) var(--color-primary-hot-pink),
+        1px 1px 0 rgba(0, 255, 255, 0.3),
+        -1px -1px 0 rgba(255, 255, 0, 0.2);
+}
+
+font[color="#00ffff"] { 
+    text-shadow: 
+        var(--glow-intense) var(--color-primary-cyan),
+        var(--glow-standard) var(--color-primary-neon-cyan),
+        1px 1px 0 rgba(255, 0, 128, 0.3),
+        -1px -1px 0 rgba(0, 255, 65, 0.2);
+}
+
+font[color="#ffffff"] { 
+    text-shadow: 
+        var(--glow-extreme) var(--color-text-plasma),
+        var(--glow-intense) var(--color-text-energy),
+        2px 2px 0 rgba(0, 255, 255, 0.4),
+        -2px -2px 0 rgba(255, 0, 128, 0.3),
+        0 0 60px rgba(255, 255, 255, 0.6);
+}
+
+font[color="#00ff41"] { 
+    text-shadow: 
+        var(--glow-intense) var(--color-primary-green),
+        var(--glow-standard) var(--color-primary-acid-green),
+        1px 1px 0 rgba(255, 255, 0, 0.3),
+        -1px -1px 0 rgba(0, 255, 255, 0.2);
+}
+
+font[color="#ffff00"] { 
+    text-shadow: 
+        var(--glow-intense) var(--color-primary-yellow),
+        var(--glow-standard) var(--color-primary-laser-yellow),
+        1px 1px 0 rgba(255, 0, 128, 0.3),
+        -1px -1px 0 rgba(0, 255, 65, 0.2);
+}
+
+font[color="#ff4000"] { 
+    text-shadow: 
+        var(--glow-intense) var(--color-primary-orange),
+        var(--glow-standard) var(--color-primary-nuclear-orange),
+        1px 1px 0 rgba(255, 255, 0, 0.3),
+        -1px -1px 0 rgba(255, 0, 128, 0.2);
+}
+
+font[color="#8000ff"] { 
+    text-shadow: 
+        var(--glow-intense) var(--color-primary-purple),
+        var(--glow-standard) var(--color-primary-violet),
+        1px 1px 0 rgba(0, 255, 255, 0.3),
+        -1px -1px 0 rgba(255, 255, 0, 0.2);
+}
+
+/* Revolutionary Font Sizing with Holographic Scaling */
+font[size="9"] { 
+    font-size: clamp(2.5em, 10vw, 6em); 
+    font-family: 'Orbitron', sans-serif; 
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    line-height: 0.9;
+    transform: perspective(1000px) rotateX(5deg);
+    filter: drop-shadow(0 10px 20px currentColor);
+}
+
+font[size="8"] { 
+    font-size: clamp(2.2em, 8vw, 5em); 
+    font-family: 'Audiowide', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    transform: perspective(800px) rotateY(2deg);
+}
+
+font[size="7"] { 
+    font-size: clamp(1.8em, 6vw, 3.5em); 
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
+font[size="6"] { 
+    font-size: clamp(1.5em, 5vw, 2.8em); 
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.04em;
+}
+
+font[size="5"] { 
+    font-size: clamp(1.3em, 4vw, 2.2em); 
+    font-family: 'Electrolize', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+font[size="4"] { 
+    font-size: clamp(1.1em, 3vw, 1.8em); 
+    font-family: 'Electrolize', sans-serif;
+    letter-spacing: 0.02em;
+}
+
+font[size="3"] { 
+    font-size: clamp(0.9em, 2.5vw, 1.4em); 
+    letter-spacing: 0.01em;
+}
+
+font[size="2"] { 
+    font-size: clamp(0.8em, 2vw, 1.1em); 
+}
+
+font[size="1"] { 
+    font-size: 0.75em; 
+}
+
+/* Next-Gen Hyperlinks with Particle Effects */
+a {
+    color: var(--color-primary-acid-green);
+    text-decoration: none;
+    position: relative;
+    transition: all var(--transition-bounce);
+    text-shadow: var(--glow-standard) var(--color-primary-green);
+    overflow: hidden;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+        transparent, 
+        rgba(0, 255, 65, 0.4), 
+        transparent);
+    transition: left var(--transition-smooth);
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, 
+        var(--color-primary-green), 
+        var(--color-primary-cyan), 
+        var(--color-primary-yellow));
+    transition: width var(--transition-bounce);
+    box-shadow: var(--glow-standard) var(--color-primary-green);
+}
+
+a:hover {
+    color: var(--color-primary-laser-yellow);
+    text-shadow: 
+        var(--glow-extreme) var(--color-primary-yellow),
+        var(--glow-intense) var(--color-primary-laser-yellow);
+    transform: translateY(-2px) scale(1.05);
+    filter: brightness(1.4) saturate(1.3);
+}
+
+a:hover::before {
+    left: 100%;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+a:visited {
+    color: var(--color-primary-violet);
+    text-shadow: var(--glow-standard) var(--color-primary-purple);
+}
+
+/* LEGENDARY HEADER WITH DIMENSIONAL RIFTS */
+table[width="100%"][cellpadding="0"][cellspacing="0"][bgcolor="#000000"] {
+    width: 100%;
+    padding: 40px 0;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+    background: 
+        radial-gradient(ellipse at center top, rgba(0, 255, 255, 0.15) 0%, transparent 70%),
+        linear-gradient(180deg, var(--color-bg-dimension) 0%, transparent 100%);
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(90deg, 
+        var(--color-primary-cyan), 
+        var(--color-primary-magenta), 
+        var(--color-primary-yellow), 
+        var(--color-primary-green),
+        var(--color-primary-cyan)) 1;
+    box-shadow: 
+        0 0 50px rgba(0, 255, 255, 0.8),
+        0 0 100px rgba(0, 255, 255, 0.4),
+        inset 0 0 50px rgba(0, 255, 255, 0.1);
+    animation: 
+        headerQuantumField 6s infinite ease-in-out,
+        dimensionalRift 15s infinite linear;
+    
+    /* Advanced 3D Perspective */
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+/* Quantum Scanlines with Matrix Effect */
+table[width="100%"][cellpadding="0"][cellspacing="0"][bgcolor="#000000"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        repeating-linear-gradient(
+            0deg,
+            transparent 0px,
+            rgba(0, 255, 255, 0.08) 1px,
+            transparent 2px,
+            transparent 4px
+        ),
+        repeating-linear-gradient(
+            90deg,
+            transparent 0px,
+            rgba(0, 255, 255, 0.03) 1px,
+            transparent 2px,
+            transparent 20px
+        );
+    pointer-events: none;
+    animation: quantumScanlines 2s linear infinite;
+    mix-blend-mode: screen;
+}
+
+/* Particle Field Overlay */
+table[width="100%"][cellpadding="0"][cellspacing="0"][bgcolor="#000000"]::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(1px 1px at 20px 30px, rgba(0, 255, 255, 0.3), transparent),
+        radial-gradient(1px 1px at 40px 70px, rgba(255, 0, 128, 0.3), transparent),
+        radial-gradient(1px 1px at 90px 40px, rgba(0, 255, 65, 0.3), transparent),
+        radial-gradient(1px 1px at 130px 80px, rgba(255, 255, 0, 0.3), transparent),
+        radial-gradient(1px 1px at 160px 30px, rgba(128, 0, 255, 0.3), transparent);
+    background-repeat: repeat;
+    background-size: 200px 100px;
+    animation: particleField 20s linear infinite;
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+/* Ultimate HYPERION Title Effects */
+table[width="100%"] > tr > td > font[size="9"][color="#ffffff"] {
+    animation: 
+        hyperionGlitchMatrix 4s infinite ease-in-out,
+        quantumFlicker 3s infinite alternate,
+        dimensionalPhase 8s infinite linear,
+        energyPulse 2s infinite ease-in-out;
+    
+    background: linear-gradient(45deg, 
+        transparent 30%, 
+        rgba(255, 255, 255, 0.1) 50%, 
+        transparent 70%);
+    background-size: 200% 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+    position: relative;
+    z-index: 10;
+    
+    /* Holographic Distortion */
+    filter: 
+        drop-shadow(2px 2px 0 rgba(0, 255, 255, 0.5))
+        drop-shadow(-2px -2px 0 rgba(255, 0, 128, 0.5))
+        drop-shadow(0 0 20px currentColor);
+}
+
+/* ULTIMATE RAINBOW NEXUS BARS */
+table[width="100%"][cellpadding="0"][cellspacing="0"] + table {
+    width: calc(100% - 20px);
+    margin: 30px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 
+        var(--glow-nuclear) rgba(0, 255, 255, 0.6),
+        var(--glow-extreme) rgba(255, 0, 128, 0.4),
+        var(--glow-intense) rgba(0, 255, 65, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transform: perspective(500px) rotateX(2deg);
+}
+
+table[width="100%"][cellpadding="0"][cellspacing="0"] + table::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: conic-gradient(
+        var(--color-primary-magenta),
+        var(--color-primary-orange),
+        var(--color-primary-yellow),
+        var(--color-primary-green),
+        var(--color-primary-cyan),
+        var(--color-primary-purple),
+        var(--color-primary-magenta)
+    );
+    animation: conicRotation 10s linear infinite;
+    filter: blur(20px);
+    opacity: 0.3;
+    z-index: -1;
+}
+
+table[width="100%"][cellpadding="0"][cellspacing="0"] + table td {
+    height: 8px !important;
+    padding: 0;
+    background: linear-gradient(90deg,
+        var(--color-primary-magenta) 0%,
+        var(--color-primary-nuclear-orange) 14%,
+        var(--color-primary-laser-yellow) 28%,
+        var(--color-primary-acid-green) 42%,
+        var(--color-primary-neon-cyan) 56%,
+        var(--color-primary-violet) 70%,
+        var(--color-primary-hot-pink) 84%,
+        var(--color-primary-magenta) 100%
+    );
+    background-size: 300% 100%;
+    animation: 
+        ultimateRainbowFlow 6s linear infinite,
+        energyPulse 2s ease-in-out infinite alternate;
+    position: relative;
+    box-shadow: 
+        inset 0 0 15px rgba(0,0,0,0.5),
+        0 0 30px currentColor;
+    
+    /* Holographic Shimmer */
+    background-image: 
+        repeating-linear-gradient(45deg,
+            transparent 0px,
+            rgba(255, 255, 255, 0.1) 1px,
+            transparent 2px,
+            transparent 10px
+        );
+}
+
+/* QUANTUM STATUS MATRIX WITH ADVANCED HOLOGRAPHY */
+center > table[bgcolor="#001122"] {
+    width: calc(98% - 40px);
+    max-width: 1400px;
+    margin: 40px auto;
+    border-collapse: separate;
+    border-spacing: 8px;
+    box-shadow: 
+        0 0 60px rgba(0, 255, 255, 0.9),
+        0 0 120px rgba(0, 255, 255, 0.5),
+        inset 0 0 40px rgba(0, 255, 255, 0.2);
+    background: 
+        radial-gradient(ellipse at center, rgba(0, 17, 34, 0.95) 0%, rgba(0, 5, 10, 0.95) 100%),
+        linear-gradient(45deg, 
+            rgba(0, 255, 255, 0.05) 0%, 
+            transparent 25%, 
+            transparent 75%, 
+            rgba(0, 255, 255, 0.05) 100%);
+    background-size: 100% 100%, 40px 40px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(45deg, 
+        var(--color-primary-cyan), 
+        var(--color-primary-magenta), 
+        var(--color-primary-cyan)) 1;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    
+    /* 3D Transformation */
+    transform: perspective(1500px) rotateX(5deg) rotateY(-2deg);
+    transform-style: preserve-3d;
+}
+
+/* Quantum Field Generator */
+center > table[bgcolor="#001122"]::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 300%;
+    height: 300%;
+    background: 
+        radial-gradient(circle at 30% 40%, rgba(0, 255, 255, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 70% 60%, rgba(255, 0, 128, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 50% 80%, rgba(0, 255, 65, 0.1) 0%, transparent 50%);
+    animation: quantumFieldRotation 25s linear infinite;
+    pointer-events: none;
+    mix-blend-mode: screen;
+}
+
+/* Holographic Interference Pattern */
+center > table[bgcolor="#001122"]::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        repeating-conic-gradient(
+            from 0deg at 50% 50%,
+            transparent 0deg,
+            rgba(0, 255, 255, 0.03) 5deg,
+            transparent 10deg
+        );
+    animation: holographicInterference 12s linear infinite;
+    pointer-events: none;
+    border-radius: 20px;
+}
+
+/* Enhanced Status Matrix Cells */
+center > table[bgcolor="#001122"] td {
+    padding: 20px;
+    border: 2px solid rgba(0, 255, 255, 0.3);
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    transition: all var(--transition-warp);
+    transform: translateZ(0);
+    background-size: 200% 200%;
+    backdrop-filter: blur(1px);
+    
+    /* Individual Cell Glow */
+    box-shadow: 
+        0 0 20px currentColor,
+        inset 0 0 20px rgba(255, 255, 255, 0.05);
+}
+
+center > table[bgcolor="#001122"] td:hover {
+    transform: 
+        scale(1.08) 
+        translateY(-10px) 
+        rotateX(10deg) 
+        rotateY(5deg);
+    box-shadow: 
+        0 0 40px currentColor,
+        0 20px 40px rgba(0, 0, 0, 0.3),
+        inset 0 0 30px rgba(255, 255, 255, 0.1);
+    z-index: 10;
+    background-position: 100% 100%;
+    filter: brightness(1.3) saturate(1.4);
+}
+
+/* Ultra-Enhanced Cell Backgrounds with Particle Systems */
+td[bgcolor="#003300"] { 
+    background: 
+        radial-gradient(circle at 30% 30%, rgba(0, 255, 65, 0.3) 0%, transparent 60%),
+        linear-gradient(135deg, #003300 0%, #001A00 50%, #004400 100%);
+    box-shadow: 
+        0 0 25px rgba(0, 255, 65, 0.8),
+        inset 0 0 25px rgba(0, 255, 65, 0.2);
+}
+
+td[bgcolor="#330033"] { 
+    background: 
+        radial-gradient(circle at 70% 70%, rgba(255, 0, 128, 0.3) 0%, transparent 60%),
+        linear-gradient(135deg, #330033 0%, #1A001A 50%, #440044 100%);
+    box-shadow: 
+        0 0 25px rgba(255, 0, 128, 0.8),
+        inset 0 0 25px rgba(255, 0, 128, 0.2);
+}
+
+td[bgcolor="#003333"] { 
+    background: 
+        radial-gradient(circle at 50% 30%, rgba(0, 255, 255, 0.3) 0%, transparent 60%),
+        linear-gradient(135deg, #003333 0%, #001A1A 50%, #004444 100%);
+    box-shadow: 
+        0 0 25px rgba(0, 255, 255, 0.8),
+        inset 0 0 25px rgba(0, 255, 255, 0.2);
+}
+
+td[bgcolor="#333300"] { 
+    background: 
+        radial-gradient(circle at 40% 60%, rgba(255, 255, 0, 0.3) 0%, transparent 60%),
+        linear-gradient(135deg, #333300 0%, #1A1A00 50%, #444400 100%);
+    box-shadow: 
+        0 0 25px rgba(255, 255, 0, 0.8),
+        inset 0 0 25px rgba(255, 255, 0, 0.2);
+}
+
+td[bgcolor="#330000"] { 
+    background: 
+        radial-gradient(circle at 60% 40%, rgba(255, 64, 0, 0.3) 0%, transparent 60%),
+        linear-gradient(135deg, #330000 0%, #1A0000 50%, #440000 100%);
+    box-shadow: 
+        0 0 25px rgba(255, 64, 0, 0.8),
+        inset 0 0 25px rgba(255, 64, 0, 0.2);
+}
+
+td[bgcolor="#330066"] { 
+    background: 
+        radial-gradient(circle at 50% 50%, rgba(128, 0, 255, 0.3) 0%, transparent 60%),
+        linear-gradient(135deg, #330066 0%, #1A0033 50%, #440088 100%);
+    box-shadow: 
+        0 0 25px rgba(128, 0, 255, 0.8),
+        inset 0 0 25px rgba(128, 0, 255, 0.2);
+}
+
+/* REVOLUTIONARY PROGRESS BARS WITH LIQUID PHYSICS */
+td > font[size="1"][color="#888888"] {
+    display: block;
+    margin-top: 12px;
+    font-size: 0.85em;
+    letter-spacing: 1.5px;
+    position: relative;
+    background: 
+        linear-gradient(90deg, 
+            rgba(255,255,255,0.05) 0%, 
+            rgba(255,255,255,0.15) 50%, 
+            rgba(255,255,255,0.05) 100%);
+    border-radius: 8px;
+    height: 12px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.2);
+    box-shadow: 
+        inset 0 0 10px rgba(0,0,0,0.7),
+        0 0 15px currentColor;
+    
+    /* Liquid Container Effect */
+    backdrop-filter: blur(2px);
+}
+
+td > font[size="1"][color="#888888"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(90deg, 
+        currentColor 0%,
+        rgba(255,255,255,0.8) 30%,
+        currentColor 60%,
+        rgba(255,255,255,0.6) 90%,
+        currentColor 100%);
+    border-radius: 8px;
+    animation: 
+        liquidProgressFill 2s cubic-bezier(0.23, 1, 0.32, 1) forwards,
+        liquidFlow 3s ease-in-out infinite;
+    background-size: 200% 100%;
+    box-shadow: 
+        0 0 20px currentColor,
+        inset 0 0 10px rgba(255,255,255,0.3);
+    animation-delay: var(--progress-delay, 0s);
+}
+
+/* Liquid Ripple Effect */
+td > font[size="1"][color="#888888"]::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, 
+        transparent 0%, 
+        rgba(255,255,255,0.8) 50%, 
+        transparent 100%);
+    transform: translateY(-50%);
+    animation: liquidRipple 2s ease-in-out infinite;
+    opacity: 0.7;
+}
+
+/* Enhanced Progress Bar Specifications */
+td[bgcolor="#003300"] font[size="1"]::before { 
+    width: 99.9%; 
+    background: linear-gradient(90deg, 
+        var(--color-primary-green), 
+        var(--color-primary-acid-green), 
+        var(--color-primary-green));
+    --progress-delay: 0.1s; 
+}
+
+td[bgcolor="#330033"] font[size="1"]::before { 
+    width: 87.4%; 
+    background: linear-gradient(90deg, 
+        var(--color-primary-magenta), 
+        var(--color-primary-hot-pink), 
+        var(--color-primary-magenta));
+    --progress-delay: 0.2s; 
+}
+
+td[bgcolor="#003333"] font[size="1"]::before { 
+    width: 100%; 
+    background: linear-gradient(90deg, 
+        var(--color-primary-cyan), 
+        var(--color-primary-neon-cyan), 
+        var(--color-primary-cyan));
+    --progress-delay: 0.3s; 
+}
+
+td[bgcolor="#333300"] font[size="1"]::before { 
+    width: 100%; 
+    background: linear-gradient(90deg, 
+        var(--color-primary-yellow), 
+        var(--color-primary-laser-yellow), 
+        var(--color-primary-yellow));
+    --progress-delay: 0.4s; 
+}
+
+td[bgcolor="#330000"] font[size="1"]::before { 
+    width: 94.7%; 
+    background: linear-gradient(90deg, 
+        var(--color-primary-orange), 
+        var(--color-primary-nuclear-orange), 
+        var(--color-primary-orange));
+    --progress-delay: 0.5s; 
+}
+
+td[bgcolor="#330066"] font[size="1"]::before { 
+    width: 76.2%; 
+    background: linear-gradient(90deg, 
+        var(--color-primary-purple), 
+        var(--color-primary-violet), 
+        var(--color-primary-purple));
+    --progress-delay: 0.6s; 
+}
+
+/* ULTRA-ADVANCED CONTROL PANELS */
+table[width="100%"] > tr > td[width="33%"] {
+    padding: 35px;
+    vertical-align: top;
+    border: 2px solid transparent;
+    border-image: linear-gradient(135deg, 
+        rgba(0, 255, 255, 0.6), 
+        rgba(255, 0, 128, 0.4), 
+        rgba(0, 255, 255, 0.6)) 2;
+    background: 
+        radial-gradient(ellipse at top left, rgba(0, 0, 20, 0.9) 0%, transparent 70%),
+        radial-gradient(ellipse at bottom right, rgba(0, 0, 15, 0.9) 0%, transparent 70%),
+        linear-gradient(135deg, rgba(0, 0, 10, 0.95) 0%, rgba(0, 0, 5, 0.95) 100%);
+    box-shadow: 
+        inset 0 0 30px rgba(0, 255, 255, 0.15),
+        0 0 25px rgba(0, 255, 255, 0.4),
+        0 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    transition: all var(--transition-warp);
+    transform-style: preserve-3d;
+    
+    /* Holographic Grid Overlay */
+    background-image: 
+        linear-gradient(rgba(0, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+/* Quantum Field Distortion on Hover */
+table[width="100%"] > tr > td[width="33%"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        conic-gradient(from 0deg at 50% 50%, 
+            transparent 0deg,
+            rgba(0, 255, 255, 0.1) 60deg,
+            transparent 120deg,
+            rgba(255, 0, 128, 0.1) 180deg,
+            transparent 240deg,
+            rgba(0, 255, 65, 0.1) 300deg,
+            transparent 360deg);
+    border-radius: 15px;
+    opacity: 0;
+    transition: opacity var(--transition-smooth);
+    animation: quantumRotation 20s linear infinite;
+    pointer-events: none;
+}
+
+table[width="100%"] > tr > td[width="33%"]:hover {
+    transform: 
+        translateY(-15px) 
+        scale(1.02) 
+        rotateX(8deg) 
+        rotateY(3deg);
+    box-shadow: 
+        inset 0 0 50px rgba(0, 255, 255, 0.25),
+        0 0 50px rgba(0, 255, 255, 0.7),
+        0 20px 60px rgba(0, 0, 0, 0.4);
+    filter: brightness(1.1);
+}
+
+table[width="100%"] > tr > td[width="33%"]:hover::before {
+    opacity: 1;
+}
+
+/* Enhanced Panel Titles */
+table[width="100%"] > tr > td[width="33%"] center font[size="5"],
+table[width="100%"] > tr > td[width="33%"] center font[size="4"] {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, 
+        currentColor 0%, 
+        rgba(255, 255, 255, 0.8) 50%, 
+        currentColor 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: 200% 200%;
+    animation: textShimmer 3s ease-in-out infinite;
+}
+
+/* QUANTUM REALITY MATRIX */
+table[width="95%"][cellpadding="8"] {
+    border-collapse: separate;
+    border-spacing: 0 12px;
+    margin: 25px auto;
+    transform: perspective(800px) rotateX(3deg);
+}
+
+table[width="95%"][cellpadding="8"] td {
+    padding: 15px 20px;
+    border: 2px solid currentColor;
+    border-radius: 8px;
+    background: 
+        radial-gradient(ellipse at center, rgba(0, 34, 0, 0.8) 0%, rgba(0, 20, 0, 0.9) 100%),
+        linear-gradient(90deg, 
+            rgba(0, 255, 65, 0.1) 0%, 
+            transparent 50%, 
+            rgba(0, 255, 65, 0.1) 100%);
+    transition: all var(--transition-bounce);
+    text-shadow: var(--glow-standard) currentColor;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(1px);
+}
+
+/* Quantum Interference Pattern */
+table[width="95%"][cellpadding="8"] td::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+        transparent 0%, 
+        rgba(255, 255, 255, 0.2) 50%, 
+        transparent 100%);
+    transition: left var(--transition-smooth);
+}
+
+table[width="95%"][cellpadding="8"] td:hover {
+    background: 
+        radial-gradient(ellipse at center, rgba(0, 50, 0, 0.9) 0%, rgba(0, 30, 0, 1) 100%),
+        linear-gradient(90deg, 
+            rgba(0, 255, 65, 0.2) 0%, 
+            rgba(255, 255, 255, 0.1) 50%, 
+            rgba(0, 255, 65, 0.2) 100%);
+    box-shadow: 
+        0 0 30px currentColor,
+        inset 0 0 20px rgba(0, 255, 65, 0.3);
+    transform: translateX(8px) scale(1.02);
+    filter: brightness(1.3) saturate(1.4);
+}
+
+table[width="95%"][cellpadding="8"] td:hover::before {
+    left: 100%;
+}
+
+/* COMMAND NEXUS WITH QUANTUM BUTTONS */
+table[width="90%"][cellpadding="8"] {
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    margin: 25px auto;
+}
+
+table[width="90%"][cellpadding="8"] td {
+    padding: 25px;
+    border-width: 3px !important;
+    border-style: solid;
+    border-radius: 15px;
+    background: 
+        radial-gradient(circle at center, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.95) 100%),
+        linear-gradient(135deg, 
+            rgba(255, 255, 255, 0.05) 0%, 
+            transparent 50%, 
+            rgba(255, 255, 255, 0.05) 100%);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all var(--transition-bounce);
+    text-shadow: var(--glow-intense) currentColor;
+    transform-style: preserve-3d;
+    
+    box-shadow: 
+        0 0 20px currentColor,
+        inset 0 0 20px rgba(255, 255, 255, 0.05),
+        0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Quantum Ripple Effect */
+table[width="90%"][cellpadding="8"] td::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    background: radial-gradient(circle, 
+        rgba(255,255,255,0.4) 0%, 
+        rgba(255,255,255,0.2) 30%,
+        transparent 70%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transition: all var(--transition-smooth);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Energy Discharge Effect */
+table[width="90%"][cellpadding="8"] td::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, 
+        transparent 40%, 
+        rgba(255,255,255,0.1) 50%, 
+        transparent 60%);
+    transform: translateX(-100%) rotate(45deg);
+    transition: transform var(--transition-warp);
+    pointer-events: none;
+    border-radius: 15px;
+}
+
+table[width="90%"][cellpadding="8"] td:hover {
+    transform: 
+        scale(1.08) 
+        translateY(-8px) 
+        rotateX(10deg) 
+        rotateZ(1deg);
+    box-shadow: 
+        0 0 40px currentColor,
+        0 0 80px rgba(255, 255, 255, 0.2),
+        inset 0 0 30px currentColor,
+        0 20px 40px rgba(0, 0, 0, 0.4);
+    background: 
+        radial-gradient(circle at center, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 1) 100%),
+        linear-gradient(135deg, 
+            rgba(255, 255, 255, 0.1) 0%, 
+            currentColor 1%, 
+            transparent 2%, 
+            transparent 98%,
+            currentColor 99%,
+            rgba(255, 255, 255, 0.1) 100%);
+    filter: brightness(1.4) saturate(1.3);
+}
+
+table[width="90%"][cellpadding="8"] td:hover::before {
+    width: 300%;
+    height: 300%;
+    opacity: 1;
+}
+
+table[width="90%"][cellpadding="8"] td:hover::after {
+    transform: translateX(100%) rotate(45deg);
+}
+
+/* ADVANCED SYSTEM METRICS */
+table[width="95%"][cellpadding="6"][bgcolor="#111100"] {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 25px auto;
+    box-shadow: 
+        0 0 50px rgba(255, 255, 0, 0.8),
+        0 0 100px rgba(255, 255, 0, 0.4),
+        inset 0 0 30px rgba(255, 255, 0, 0.1);
+    background: 
+        radial-gradient(ellipse at center, rgba(17, 17, 0, 0.95) 0%, rgba(5, 5, 0, 0.98) 100%),
+        linear-gradient(45deg, 
+            rgba(255, 255, 0, 0.05) 0%, 
+            transparent 25%, 
+            transparent 75%, 
+            rgba(255, 255, 0, 0.05) 100%);
+    background-size: 100% 100%, 30px 30px;
+    border: 3px solid var(--color-primary-yellow);
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transform: perspective(600px) rotateX(4deg);
+}
+
+/* Electrical Grid Overlay */
+table[width="95%"][cellpadding="6"][bgcolor="#111100"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(255, 255, 0, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 0, 0.1) 1px, transparent 1px);
+    background-size: 15px 15px;
+    animation: electricalGrid 8s linear infinite;
+    pointer-events: none;
+}
+
+table[width="95%"][cellpadding="6"] td {
+    padding: 15px 20px;
+    border: 1px solid rgba(255, 255, 0, 0.3);
+    background: 
+        linear-gradient(135deg, rgba(34, 34, 0, 0.8) 0%, rgba(20, 20, 0, 0.9) 100%);
+    transition: all var(--transition-smooth);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Lightning Effect on Hover */
+table[width="95%"][cellpadding="6"] td::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, 
+        transparent 48%, 
+        rgba(255, 255, 0, 0.3) 49%, 
+        rgba(255, 255, 0, 0.6) 50%, 
+        rgba(255, 255, 0, 0.3) 51%, 
+        transparent 52%);
+    transform: translateX(-100%);
+    transition: transform var(--transition-smooth);
+}
+
+table[width="95%"][cellpadding="6"] td:hover {
+    background: 
+        linear-gradient(135deg, rgba(50, 50, 0, 0.9) 0%, rgba(34, 34, 0, 1) 100%);
+    box-shadow: 
+        0 0 25px rgba(255, 255, 0, 0.8),
+        inset 0 0 15px rgba(255, 255, 0, 0.3);
+    filter: brightness(1.2);
+}
+
+table[width="95%"][cellpadding="6"] td:hover::before {
+    transform: translateX(100%);
+}
+
+table[width="95%"][cellpadding="6"] tr:first-child td {
+    background: 
+        radial-gradient(ellipse at center, rgba(50, 50, 0, 0.95) 0%, rgba(34, 34, 0, 1) 100%),
+        linear-gradient(90deg, 
+            rgba(255, 255, 0, 0.2) 0%, 
+            transparent 50%, 
+            rgba(255, 255, 0, 0.2) 100%);
+    font-weight: bold;
+    color: var(--color-primary-laser-yellow);
+    text-shadow: var(--glow-intense) var(--color-primary-yellow);
+    border-bottom: 3px solid var(--color-primary-yellow);
+    border-radius: 0;
+    animation: headerPulse 2s ease-in-out infinite alternate;
+}
+
+/* ULTIMATE SECURITY STATUS */
+center > table[cellpadding="3"][width="80%"] {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    margin-top: 30px;
+}
+
+center > table[cellpadding="3"][width="80%"] td {
+    padding: 18px 25px;
+    border-radius: 12px;
+    text-shadow: var(--glow-standard) currentColor;
+    transition: all var(--transition-bounce);
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(2px);
+    
+    box-shadow: 
+        0 0 20px currentColor,
+        inset 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+/* Security Status Specific Enhancements */
+td[bgcolor="#004400"] { 
+    background: 
+        radial-gradient(ellipse at top left, rgba(0, 100, 0, 0.8) 0%, rgba(0, 68, 0, 0.9) 100%),
+        linear-gradient(135deg, 
+            rgba(0, 255, 65, 0.1) 0%, 
+            transparent 50%, 
+            rgba(0, 255, 65, 0.1) 100%);
+    color: var(--color-primary-acid-green);
+}
+
+td[bgcolor="#440044"] { 
+    background: 
+        radial-gradient(ellipse at top right, rgba(100, 0, 100, 0.8) 0%, rgba(68, 0, 68, 0.9) 100%),
+        linear-gradient(135deg, 
+            rgba(255, 0, 128, 0.1) 0%, 
+            transparent 50%, 
+            rgba(255, 0, 128, 0.1) 100%);
+    color: var(--color-primary-hot-pink);
+}
+
+td[bgcolor="#004444"] { 
+    background: 
+        radial-gradient(ellipse at bottom left, rgba(0, 100, 100, 0.8) 0%, rgba(0, 68, 68, 0.9) 100%),
+        linear-gradient(135deg, 
+            rgba(0, 255, 255, 0.1) 0%, 
+            transparent 50%, 
+            rgba(0, 255, 255, 0.1) 100%);
+    color: var(--color-primary-neon-cyan);
+}
+
+td[bgcolor="#444400"] { 
+    background: 
+        radial-gradient(ellipse at bottom right, rgba(100, 100, 0, 0.8) 0%, rgba(68, 68, 0, 0.9) 100%),
+        linear-gradient(135deg, 
+            rgba(255, 255, 0, 0.1) 0%, 
+            transparent 50%, 
+            rgba(255, 255, 0, 0.1) 100%);
+    color: var(--color-primary-laser-yellow);
+}
+
+/* Security Pulse Animation */
+center > table[cellpadding="3"][width="80%"] td::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, 
+        transparent 0%, 
+        rgba(255, 255, 255, 0.1) 50%, 
+        transparent 100%);
+    transform: translateX(-100%);
+    transition: transform var(--transition-smooth);
+    border-radius: 12px;
+}
+
+center > table[cellpadding="3"][width="80%"] td:hover {
+    box-shadow: 
+        0 0 40px currentColor,
+        0 0 80px rgba(255, 255, 255, 0.2),
+        inset 0 0 25px rgba(255, 255, 255, 0.1);
+    filter: brightness(1.3) saturate(1.4);
+    transform: scale(1.05) translateY(-5px);
+}
+
+center > table[cellpadding="3"][width="80%"] td:hover::before {
+    transform: translateX(100%);
+}
+
+/* DIMENSIONAL RAINBOW SEPARATORS */
+table[width="100%"][cellpadding="0"][cellspacing="0"]:nth-of-type(3) {
+    margin: 50px auto;
+    box-shadow: 
+        var(--glow-nuclear) rgba(255, 0, 128, 0.6),
+        var(--glow-extreme) rgba(0, 255, 255, 0.4);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    transform: perspective(400px) rotateX(3deg);
+}
+
+table[width="100%"][cellpadding="0"][cellspacing="0"]:nth-of-type(3)::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 300%;
+    height: 300%;
+    background: conic-gradient(
+        var(--color-primary-magenta),
+        var(--color-primary-orange),
+        var(--color-primary-yellow),
+        var(--color-primary-green),
+        var(--color-primary-cyan),
+        var(--color-primary-purple),
+        var(--color-primary-magenta)
+    );
+    animation: dimensionalRotation 15s linear infinite;
+    filter: blur(30px);
+    opacity: 0.4;
+    z-index: -1;
+}
+
+table[width="100%"][cellpadding="0"][cellspacing="0"]:nth-of-type(3) td {
+    height: 10px !important;
+    background: linear-gradient(90deg,
+        var(--color-primary-magenta) 0%,
+        var(--color-primary-nuclear-orange) 12%,
+        var(--color-primary-laser-yellow) 24%,
+        var(--color-primary-acid-green) 36%,
+        var(--color-primary-neon-cyan) 48%,
+        var(--color-primary-violet) 60%,
+        var(--color-primary-hot-pink) 72%,
+        var(--color-primary-nuclear-orange) 84%,
+        var(--color-primary-magenta) 100%
+    );
+    background-size: 400% 100%;
+    animation: 
+        ultimateRainbowFlowReverse 5s linear infinite,
+        dimensionalPulse 3s ease-in-out infinite alternate;
+    position: relative;
+    box-shadow: 
+        inset 0 0 20px rgba(0,0,0,0.3),
+        0 0 40px currentColor;
+    
+    /* Quantum Interference */
+    background-image: 
+        repeating-linear-gradient(45deg,
+            transparent 0px,
+            rgba(255, 255, 255, 0.1) 1px,
+            transparent 2px,
+            transparent 8px
+        );
+}
+
+/* LEGENDARY TESTIMONIALS FROM THE QUANTUM REALM */
+center > table[bgcolor="#001122"][width="95%"]:last-of-type {
+    width: calc(95% - 40px);
+    max-width: 1500px;
+    margin: 50px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 
+        0 0 80px rgba(0, 255, 255, 1),
+        0 0 160px rgba(0, 255, 255, 0.6),
+        inset 0 0 50px rgba(0, 255, 255, 0.3);
+    background: 
+        radial-gradient(ellipse at center, rgba(0, 17, 34, 0.98) 0%, rgba(0, 0, 5, 1) 100%),
+        conic-gradient(from 0deg at 50% 50%, 
+            rgba(0, 255, 255, 0.02) 0deg,
+            transparent 60deg,
+            rgba(255, 0, 128, 0.02) 120deg,
+            transparent 180deg,
+            rgba(0, 255, 65, 0.02) 240deg,
+            transparent 300deg,
+            rgba(0, 255, 255, 0.02) 360deg);
+    border: 4px solid transparent;
+    border-image: linear-gradient(45deg, 
+        var(--color-primary-cyan), 
+        var(--color-primary-magenta), 
+        var(--color-primary-green),
+        var(--color-primary-cyan)) 1;
+    border-radius: 25px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transform: perspective(1000px) rotateX(2deg);
+}
+
+/* Quantum Testimonial Field */
+center > table[bgcolor="#001122"][width="95%"]:last-of-type::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: 
+        radial-gradient(circle at 25% 25%, rgba(0, 255, 255, 0.1) 0%, transparent 40%),
+        radial-gradient(circle at 75% 75%, rgba(255, 0, 128, 0.1) 0%, transparent 40%),
+        radial-gradient(circle at 25% 75%, rgba(0, 255, 65, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 75% 25%, rgba(255, 255, 0, 0.08) 0%, transparent 40%);
+    animation: testimonialQuantumField 30s linear infinite;
+    pointer-events: none;
+}
+
+center > table[bgcolor="#001122"][width="95%"]:last-of-type font[size="6"] {
+    font-size: clamp(2.2em, 8vw, 4em);
+    text-shadow: 
+        var(--glow-nuclear) var(--color-primary-cyan),
+        0 0 100px rgba(0, 255, 255, 0.8);
+    margin-bottom: 40px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    position: relative;
+    background: linear-gradient(45deg, 
+        var(--color-primary-cyan) 0%, 
+        var(--color-text-plasma) 50%, 
+        var(--color-primary-cyan) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: 200% 200%;
+    animation: testimonialTitleShimmer 4s ease-in-out infinite;
+}
+
+center > table[bgcolor="#001122"][width="95%"]:last-of-type table[width="100%"] {
+    border-collapse: separate;
+    border-spacing: 30px;
+}
+
+center > table[bgcolor="#001122"][width="95%"]:last-of-type table[width="100%"] td {
+    padding: 30px;
+    border-width: 3px !important;
+    border-style: solid;
+    border-color: currentColor;
+    border-radius: 20px;
+    background: 
+        radial-gradient(ellipse at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.9) 100%),
+        linear-gradient(135deg, 
+            rgba(255, 255, 255, 0.05) 0%, 
+            transparent 30%, 
+            transparent 70%, 
+            rgba(255, 255, 255, 0.05) 100%);
+    box-shadow: 
+        inset 0 0 25px currentColor,
+        0 0 40px currentColor,
+        0 15px 30px rgba(0, 0, 0, 0.3);
+    transition: all var(--transition-warp);
+    cursor: grab;
+    transform-style: preserve-3d;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(2px);
+}
+
+/* Holographic Sweep Effect */
+center > table[bgcolor="#001122"][width="95%"]:last-of-type table[width="100%"] td::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, 
+        transparent 30%, 
+        rgba(255,255,255,0.15) 45%, 
+        rgba(255,255,255,0.3) 50%, 
+        rgba(255,255,255,0.15) 55%, 
+        transparent 70%);
+    transform: translateX(-100%) translateY(-100%);
+    transition: transform var(--transition-warp);
+    pointer-events: none;
+    border-radius: 20px;
+}
+
+/* Quantum Particle System */
+center > table[bgcolor="#001122"][width="95%"]:last-of-type table[width="100%"] td::after {
+    content: '';
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 4px;
+    height: 4px;
+    background: currentColor;
+    border-radius: 50%;
+    box-shadow: 
+        -20px 10px 0 -1px currentColor,
+        -40px -10px 0 -2px currentColor,
+        20px -20px 0 -1px currentColor,
+        40px 15px 0 -2px currentColor,
+        -60px 25px 0 -1px currentColor;
+    animation: quantumParticles 4s linear infinite;
+    opacity: 0.3;
+}
+
+center > table[bgcolor="#001122"][width="95%"]:last-of-type table[width="100%"] td:hover {
+    transform: 
+        scale(1.12) 
+        translateY(-15px) 
+        rotateY(8deg) 
+        rotateX(5deg);
+    box-shadow: 
+        inset 0 0 50px currentColor,
+        0 0 80px currentColor,
+        0 25px 50px rgba(0, 0, 0, 0.4);
+    cursor: grabbing;
+    filter: brightness(1.4) saturate(1.5);
+}
+
+center > table[bgcolor="#001122"][width="95%"]:last-of-type table[width="100%"] td:hover::before {
+    transform: translateX(100%) translateY(100%);
+}
+
+center > table[bgcolor="#001122"][width="95%"]:last-of-type table[width="100%"] td font[size="4"] {
+    font-size: clamp(1.2em, 3vw, 1.6em);
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-shadow: var(--glow-intense) currentColor;
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+}
+
+center > table[bgcolor="#001122"][width="95%"]:last-of-type table[width="100%"] td font[size="3"] {
+    font-size: 1.8em;
+    letter-spacing: 4px;
+    margin: 12px 0;
+    display: block;
+    animation: 
+        starConstellation 2s infinite alternate ease-in-out,
+        starTwinkle 1s infinite linear;
+    text-shadow: 
+        var(--glow-intense) currentColor,
+        0 0 30px currentColor;
+}
+
+/* ULTIMATE DIMENSIONAL ACTION PANEL */
+center > table[bgcolor="#000000"][width="100%"]:last-of-type {
+    width: 100%;
+    max-width: 1600px;
+    margin: 60px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 
+        0 0 100px rgba(255, 0, 128, 1),
+        0 0 200px rgba(255, 0, 128, 0.6),
+        inset 0 0 60px rgba(255, 0, 128, 0.4);
+    background: 
+        radial-gradient(ellipse at center top, rgba(34, 0, 68, 0.95) 0%, rgba(0, 0, 0, 1) 70%),
+        radial-gradient(ellipse at center bottom, rgba(17, 0, 34, 0.9) 0%, transparent 60%),
+        linear-gradient(135deg, 
+            rgba(255, 0, 128, 0.02) 0%, 
+            transparent 25%, 
+            transparent 75%, 
+            rgba(255, 0, 128, 0.02) 100%);
+    background-size: 100% 100%, 100% 100%, 50px 50px;
+    border: 5px solid transparent;
+    border-image: linear-gradient(45deg, 
+        var(--color-primary-magenta), 
+        var(--color-primary-violet), 
+        var(--color-primary-hot-pink),
+        var(--color-primary-magenta)) 1;
+    border-radius: 30px;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+    transform: perspective(1200px) rotateX(3deg);
+}
+
+/* Ultimate Energy Field */
+center > table[bgcolor="#000000"][width="100%"]:last-of-type::before {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 300%;
+    height: 300%;
+    background: 
+        conic-gradient(from 0deg at 50% 50%, 
+            rgba(255, 0, 128, 0.3) 0deg,
+            transparent 45deg,
+            rgba(128, 0, 255, 0.2) 90deg,
+            transparent 135deg,
+            rgba(255, 20, 147, 0.3) 180deg,
+            transparent 225deg,
+            rgba(138, 43, 226, 0.2) 270deg,
+            transparent 315deg,
+            rgba(255, 0, 128, 0.3) 360deg);
+    animation: ultimateEnergyRotation 20s linear infinite;
+    pointer-events: none;
+    filter: blur(40px);
+    opacity: 0.6;
+    z-index: -1;
+}
+
+/* Power Grid Overlay */
+center > table[bgcolor="#000000"][width="100%"]:last-of-type::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(255, 0, 128, 0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 0, 128, 0.1) 1px, transparent 1px),
+        radial-gradient(circle at 25% 25%, rgba(255, 255, 255, 0.05) 0%, transparent 20%),
+        radial-gradient(circle at 75% 75%, rgba(255, 255, 255, 0.05) 0%, transparent 20%);
+    background-size: 25px 25px, 25px 25px, 100px 100px, 100px 100px;
+    animation: powerGrid 15s linear infinite;
+    pointer-events: none;
+    border-radius: 30px;
+    opacity: 0.7;
+}
+
+center > table[bgcolor="#000000"][width="100%"]:last-of-type font[size="8"] {
+    font-size: clamp(3.5em, 12vw, 7em);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    letter-spacing: 8px;
+    text-shadow: 
+        var(--glow-nuclear) var(--color-primary-magenta),
+        0 0 120px rgba(255, 0, 128, 0.9);
+    animation: 
+        ultimateNeonFlux 2s infinite ease-in-out alternate,
+        dimensionalGlitch 5s infinite linear;
+    margin-bottom: 30px;
+    position: relative;
+    background: linear-gradient(45deg, 
+        var(--color-primary-magenta) 0%, 
+        var(--color-text-plasma) 25%, 
+        var(--color-primary-hot-pink) 50%, 
+        var(--color-text-plasma) 75%, 
+        var(--color-primary-magenta) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: 200% 200%;
+    filter: drop-shadow(0 0 20px currentColor);
+}
+
+center > table[bgcolor="#000000"][width="100%"]:last-of-type font[size="4"] {
+    font-size: clamp(1.4em, 4vw, 2.2em);
+    color: var(--color-text-energy);
+    text-shadow: 
+        var(--glow-intense) var(--color-text-plasma),
+        0 0 40px rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+center > table[bgcolor="#000000"][width="100%"]:last-of-type font[size="3"] {
+    font-size: clamp(1.1em, 3vw, 1.6em);
+    color: var(--color-primary-acid-green);
+    text-shadow: 
+        var(--glow-intense) var(--color-primary-green),
+        0 0 30px rgba(0, 255, 65, 0.8);
+    animation: 
+        criticalWarning 1s infinite steps(2) alternate,
+        warningPulse 2s infinite ease-in-out;
+    margin-bottom: 40px;
+    font-family: 'Share Tech Mono', monospace;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+center > table[bgcolor="#000000"][width="100%"]:last-of-type table[cellpadding="15"] {
+    border-collapse: separate;
+    border-spacing: 25px;
+    margin-top: 50px;
+}
+
+center > table[bgcolor="#000000"][width="100%"]:last-of-type table[cellpadding="15"] td {
+    padding: 35px;
+    border-width: 4px !important;
+    border-style: solid;
+    border-color: var(--color-text-plasma);
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all var(--transition-warp);
+    transform-style: preserve-3d;
+    background: 
+        radial-gradient(ellipse at center, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.95) 100%),
+        linear-gradient(135deg, 
+            rgba(255, 255, 255, 0.1) 0%, 
+            transparent 25%, 
+            transparent 75%, 
+            rgba(255, 255, 255, 0.1) 100%);
+    box-shadow: 
+        0 0 25px rgba(0,0,0,0.5) inset,
+        var(--glow-intense) currentColor,
+        0 15px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(3px);
+}
+
+/* Ultimate Button Energy Core */
+center > table[bgcolor="#000000"][width="100%"]:last-of-type table[cellpadding="15"] td::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, 
+        currentColor 0%, 
+        rgba(255,255,255,0.8) 30%, 
+        transparent 70%);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform var(--transition-bounce);
+    opacity: 0;
+    box-shadow: 0 0 20px currentColor;
+}
+
+/* Ultimate Energy Discharge */
+center > table[bgcolor="#000000"][width="100%"]:last-of-type table[cellpadding="15"] td::after {
+    content: '⚡';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%) scale(0) rotate(0deg);
+    opacity: 0;
+    font-size: 2em;
+    color: var(--color-text-plasma);
+    text-shadow: var(--glow-extreme) currentColor;
+    transition: all var(--transition-bounce);
+    pointer-events: none;
+}
+
+center > table[bgcolor="#000000"][width="100%"]:last-of-type table[cellpadding="15"] td:hover {
+    transform: 
+        scale(1.12) 
+        translateY(-15px) 
+        rotateX(15deg) 
+        rotateY(5deg) 
+        rotateZ(2deg);
+    box-shadow: 
+        0 0 60px currentColor,
+        0 0 120px rgba(255, 255, 255, 0.3),
+        inset 0 0 40px rgba(0,0,0,0.8),
+        0 30px 60px rgba(0, 0, 0, 0.5);
+    filter: brightness(1.5) saturate(1.4) contrast(1.2);
+    border-color: currentColor;
+}
+
+center > table[bgcolor="#000000"][width="100%"]:last-of-type table[cellpadding="15"] td:hover::before {
+    transform: translate(-50%, -50%) scale(20);
+    opacity: 0.3;
+}
+
+center > table[bgcolor="#000000"][width="100%"]:last-of-type table[cellpadding="15"] td:hover::after {
+    transform: translateY(-50%) scale(1) rotate(360deg);
+    opacity: 1;
+}
+
+/* Ultimate Button Color Specifications */
+td[bgcolor="#ff0080"] { 
+    background: 
+        radial-gradient(ellipse at center, var(--color-primary-magenta) 0%, var(--color-primary-hot-pink) 100%),
+        linear-gradient(135deg, 
+            rgba(255, 255, 255, 0.2) 0%, 
+            transparent 50%, 
+            rgba(255, 255, 255, 0.2) 100%);
+    color: var(--color-bg-void);
+    text-shadow: var(--glow-standard) var(--color-primary-magenta);
+}
+
+td[bgcolor="#00ff41"] { 
+    background: 
+        radial-gradient(ellipse at center, var(--color-primary-green) 0%, var(--color-primary-acid-green) 100%),
+        linear-gradient(135deg, 
+            rgba(255, 255, 255, 0.2) 0%, 
+            transparent 50%, 
+            rgba(255, 255, 255, 0.2) 100%);
+    color: var(--color-bg-void);
+    text-shadow: var(--glow-standard) var(--color-primary-green);
+}
+
+td[bgcolor="#00ffff"] { 
+    background: 
+        radial-gradient(ellipse at center, var(--color-primary-cyan) 0%, var(--color-primary-neon-cyan) 100%),
+        linear-gradient(135deg, 
+            rgba(255, 255, 255, 0.2) 0%, 
+            transparent 50%, 
+            rgba(255, 255, 255, 0.2) 100%);
+    color: var(--color-bg-void);
+    text-shadow: var(--glow-standard) var(--color-primary-cyan);
+}
+
+td[bgcolor="#ffff00"] { 
+    background: 
+        radial-gradient(ellipse at center, var(--color-primary-yellow) 0%, var(--color-primary-laser-yellow) 100%),
+        linear-gradient(135deg, 
+            rgba(255, 255, 255, 0.2) 0%, 
+            transparent 50%, 
+            rgba(255, 255, 255, 0.2) 100%);
+    color: var(--color-bg-void);
+    text-shadow: var(--glow-standard) var(--color-primary-yellow);
+}
+
+td[bgcolor="#ff4000"] { 
+    background: 
+        radial-gradient(ellipse at center, var(--color-primary-orange) 0%, var(--color-primary-nuclear-orange) 100%),
+        linear-gradient(135deg, 
+            rgba(255, 255, 255, 0.2) 0%, 
+            transparent 50%, 
+            rgba(255, 255, 255, 0.2) 100%);
+    color: var(--color-bg-void);
+    text-shadow: var(--glow-standard) var(--color-primary-orange);
+}
+
+td[bgcolor="#8000ff"] { 
+    background: 
+        radial-gradient(ellipse at center, var(--color-primary-purple) 0%, var(--color-primary-violet) 100%),
+        linear-gradient(135deg, 
+            rgba(255, 255, 255, 0.2) 0%, 
+            transparent 50%, 
+            rgba(255, 255, 255, 0.2) 100%);
+    color: var(--color-bg-void);
+    text-shadow: var(--glow-standard) var(--color-primary-purple);
+}
+
+/* QUANTUM TECH SPECIFICATIONS */
+table[width="100%"][bgcolor="#000011"] {
+    max-width: 1600px;
+    margin: 60px auto;
+    box-shadow: 
+        0 0 80px rgba(0, 255, 255, 1),
+        0 0 160px rgba(0, 255, 255, 0.6),
+        inset 0 0 50px rgba(0, 255, 255, 0.4);
+    border-radius: 25px;
+    background: 
+        radial-gradient(ellipse at center, rgba(0, 0, 17, 0.98) 0%, rgba(0, 10, 25, 0.99) 50%, rgba(0, 0, 17, 1) 100%),
+        conic-gradient(from 45deg at 50% 50%, 
+            rgba(0, 255, 255, 0.03) 0deg,
+            transparent 72deg,
+            rgba(0, 255, 255, 0.03) 144deg,
+            transparent 216deg,
+            rgba(0, 255, 255, 0.03) 288deg,
+            transparent 360deg);
+    background-size: 100% 100%, 80px 80px;
+    border: 4px solid var(--color-primary-cyan);
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    position: relative;
+    overflow: hidden;
+    transform: perspective(1000px) rotateX(2deg);
+}
+
+/* Quantum Circuit Overlay */
+table[width="100%"][bgcolor="#000011"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(0, 255, 255, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 255, 255, 0.08) 1px, transparent 1px),
+        radial-gradient(circle at 20% 20%, rgba(0, 255, 255, 0.1) 0%, transparent 15%),
+        radial-gradient(circle at 80% 80%, rgba(0, 255, 255, 0.1) 0%, transparent 15%),
+        radial-gradient(circle at 20% 80%, rgba(0, 255, 255, 0.08) 0%, transparent 15%),
+        radial-gradient(circle at 80% 20%, rgba(0, 255, 255, 0.08) 0%, transparent 15%);
+    background-size: 20px 20px, 20px 20px, 200px 200px, 200px 200px, 200px 200px, 200px 200px;
+    animation: quantumCircuits 25s linear infinite;
+    pointer-events: none;
+    border-radius: 25px;
+}
+
+table[width="100%"][bgcolor="#000011"] > tr {
+    display: contents;
+}
+
+table[width="100%"][bgcolor="#000011"] > tr > td {
+    flex: 1 1 30%;
+    min-width: 320px;
+    padding: 35px;
+    border: 3px solid rgba(0, 255, 255, 0.5);
+    text-shadow: var(--glow-standard) rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    background: 
+        radial-gradient(ellipse at top left, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.9) 100%),
+        linear-gradient(135deg, 
+            rgba(0, 255, 255, 0.1) 0%, 
+            transparent 25%, 
+            transparent 75%, 
+            rgba(0, 255, 255, 0.1) 100%);
+    box-shadow: 
+        inset 0 0 20px rgba(0, 255, 255, 0.3),
+        0 0 15px rgba(0, 255, 255, 0.4),
+        0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all var(--transition-warp);
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(2px);
+}
+
+/* Tech Spec Hover Quantum Field */
+table[width="100%"][bgcolor="#000011"] > tr > td::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 30% 30%, rgba(0, 255, 255, 0.2) 0%, transparent 50%),
+        radial-gradient(circle at 70% 70%, rgba(255, 255, 255, 0.1) 0%, transparent 30%);
+    opacity: 0;
+    transition: opacity var(--transition-smooth);
+    border-radius: 15px;
+    pointer-events: none;
+}
+
+table[width="100%"][bgcolor="#000011"] > tr > td:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 
+        inset 0 0 40px rgba(0, 255, 255, 0.5),
+        0 0 30px rgba(0, 255, 255, 0.8),
+        0 20px 40px rgba(0, 0, 0, 0.4);
+    border-color: rgba(0, 255, 255, 0.8);
+    filter: brightness(1.2);
+}
+
+table[width="100%"][bgcolor="#000011"] > tr > td:hover::before {
+    opacity: 1;
+}
+
+table[width="100%"][bgcolor="#000011"] font[size="4"] {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: var(--glow-extreme) currentColor;
+    text-transform: uppercase;
+    position: relative;
+    background: linear-gradient(45deg, 
+        currentColor 0%, 
+        rgba(255, 255, 255, 0.9) 50%, 
+        currentColor 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-size: 200% 200%;
+    animation: techSpecShimmer 4s ease-in-out infinite;
+}
+
+table[width="100%"][bgcolor="#000011"] font[size="2"] {
+    line-height: 2.2;
+    display: block;
+    white-space: pre-wrap;
+    text-align: left;
+    font-family: 'Electrolize', monospace;
+    letter-spacing: 0.5px;
+}
+
+/* ULTIMATE DIMENSIONAL FOOTER SEQUENCE */
+table[width="100%"][cellpadding="0"][cellspacing="0"]:last-of-type {
+    margin: 60px auto 40px auto;
+    box-shadow: 
+        var(--glow-nuclear) rgba(0, 255, 65, 0.6),
+        var(--glow-extreme) rgba(0, 255, 255, 0.4),
+        var(--glow-intense) rgba(255, 0, 128, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    transform: perspective(300px) rotateX(5deg);
+}
+
+table[width="100%"][cellpadding="0"][cellspacing="0"]:last-of-type::before {
+    content: '';
+    position: absolute;
+    top: -200%;
+    left: -200%;
+    width: 500%;
+    height: 500%;
+    background: 
+        conic-gradient(from 180deg at 50% 50%,
+            var(--color-primary-violet) 0deg,
+            var(--color-primary-neon-cyan) 51deg,
+            var(--color-primary-acid-green) 102deg,
+            var(--color-primary-laser-yellow) 153deg,
+            var(--color-primary-nuclear-orange) 204deg,
+            var(--color-primary-hot-pink) 255deg,
+            var(--color-primary-magenta) 306deg,
+            var(--color-primary-violet) 360deg);
+    animation: ultimateDimensionalRotation 12s linear infinite;
+    filter: blur(50px);
+    opacity: 0.5;
+    z-index: -1;
+}
+
+table[width="100%"][cellpadding="0"][cellspacing="0"]:last-of-type td {
+    height: 6px !important;
+    background: linear-gradient(90deg,
+        var(--color-primary-violet) 0%,
+        var(--color-primary-neon-cyan) 12%,
+        var(--color-primary-acid-green) 24%,
+        var(--color-primary-laser-yellow) 36%,
+        var(--color-primary-nuclear-orange) 48%,
+        var(--color-primary-hot-pink) 60%,
+        var(--color-primary-magenta) 72%,
+        var(--color-primary-violet) 84%,
+        var(--color-primary-neon-cyan) 100%
+    );
+    background-size: 500% 100%;
+    animation: 
+        ultimateFooterFlow 8s linear infinite,
+        dimensionalPulse 4s ease-in-out infinite alternate,
+        energyDischarge 6s ease-in-out infinite;
+    position: relative;
+    box-shadow: 
+        inset 0 0 30px rgba(0,0,0,0.4),
+        0 0 50px currentColor;
+    
+    /* Ultimate Holographic Pattern */
+    background-image: 
+        repeating-linear-gradient(45deg,
+            transparent 0px,
+            rgba(255, 255, 255, 0.15) 1px,
+            transparent 2px,
+            transparent 6px
+        ),
+        repeating-linear-gradient(-45deg,
+            transparent 0px,
+            rgba(255, 255, 255, 0.1) 1px,
+            transparent 2px,
+            transparent 12px
+        );
+}
+
+/* ULTIMATE FOOTER TEXT */
+center > font[size="3"][color="#00ffff"]:last-of-type {
+    display: block;
+    margin: 40px auto 80px auto;
+    padding: 40px;
+    background: 
+        radial-gradient(ellipse at center, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.95) 100%),
+        linear-gradient(135deg, 
+            rgba(0, 255, 255, 0.1) 0%, 
+            transparent 25%, 
+            transparent 75%, 
+            rgba(0, 255, 255, 0.1) 100%);
+    border: 3px solid var(--color-primary-cyan);
+    border-radius: 20px;
+    box-shadow: 
+        0 0 50px rgba(0, 255, 255, 1),
+        0 0 100px rgba(0, 255, 255, 0.6),
+        inset 0 0 30px rgba(0, 255, 255, 0.3);
+    line-height: 2;
+    text-shadow: 
+        var(--glow-intense) var(--color-primary-cyan),
+        0 0 40px rgba(0, 255, 255, 0.8);
+    animation: 
+        footerQuantumField 8s infinite alternate ease-in-out,
+        textBreathing 4s infinite ease-in-out;
+    max-width: 95%;
+    font-family: 'Electrolize', sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(3px);
+}
+
+/* Footer Quantum Particles */
+center > font[size="3"][color="#00ffff"]:last-of-type::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(1px 1px at 25% 25%, rgba(0, 255, 255, 0.4), transparent),
+        radial-gradient(1px 1px at 75% 25%, rgba(255, 0, 128, 0.4), transparent),
+        radial-gradient(1px 1px at 25% 75%, rgba(0, 255, 65, 0.4), transparent),
+        radial-gradient(1px 1px at 75% 75%, rgba(255, 255, 0, 0.4), transparent),
+        radial-gradient(1px 1px at 50% 50%, rgba(128, 0, 255, 0.4), transparent);
+    background-size: 60px 60px;
+    animation: footerParticleField 30s linear infinite;
+    pointer-events: none;
+    border-radius: 20px;
+    opacity: 0.6;
+}
+
+/* --- LEGENDARY KEYFRAME ANIMATIONS --- */
+
+/* Quantum Field Pulse */
+@keyframes quantumFieldPulse {
+    0%, 100% { 
+        background-position: 0% 0%, 100% 0%, 0% 100%, 100% 100%, 50% 50%, 0 0, 0 0;
+        filter: contrast(1.1) brightness(1.05) saturate(1.2);
+    }
+    25% { 
+        background-position: 25% 25%, 75% 25%, 25% 75%, 75% 75%, 25% 75%, 10px 10px, 0 0;
+        filter: contrast(1.15) brightness(1.1) saturate(1.3);
+    }
+    50% { 
+        background-position: 50% 50%, 50% 50%, 50% 50%, 50% 50%, 75% 25%, 20px 20px, 0 0;
+        filter: contrast(1.2) brightness(1.15) saturate(1.4);
+    }
+    75% { 
+        background-position: 75% 25%, 25% 75%, 75% 25%, 25% 75%, 0% 50%, 15px 15px, 0 0;
+        filter: contrast(1.15) brightness(1.1) saturate(1.3);
+    }
+}
+
+/* Star Field Drift */
+@keyframes starFieldDrift {
+    0% { background-position: 0% 0%, 100% 0%, 0% 100%, 100% 100%, 50% 50%, 0 0, 0 0; }
+    100% { background-position: 100% 100%, 0% 100%, 100% 0%, 0% 0%, 0% 0%, 200px 100px, 0 0; }
+}
+
+/* Dimensional Shift */
+@keyframes dimensionalShift {
+    0%, 100% { 
+        transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+        --reality-distortion: 0;
+    }
+    25% { 
+        transform: perspective(1000px) rotateX(0.5deg) rotateY(0.2deg);
+        --reality-distortion: 0.3;
+    }
+    50% { 
+        transform: perspective(1000px) rotateX(0deg) rotateY(0.5deg);
+        --reality-distortion: 0.5;
+    }
+    75% { 
+        transform: perspective(1000px) rotateX(-0.2deg) rotateY(0deg);
+        --reality-distortion: 0.2;
+    }
+}
+
+/* Header Quantum Field */
+@keyframes headerQuantumField {
+    0%, 100% { 
+        box-shadow: 
+            0 0 50px rgba(0, 255, 255, 0.8),
+            0 0 100px rgba(0, 255, 255, 0.4),
+            inset 0 0 50px rgba(0, 255, 255, 0.1);
+    }
+    33% { 
+        box-shadow: 
+            0 0 70px rgba(0, 255, 255, 0.9),
+            0 0 140px rgba(255, 0, 128, 0.3),
+            inset 0 0 70px rgba(0, 255, 255, 0.15);
+    }
+    66% { 
+        box-shadow: 
+            0 0 60px rgba(255, 0, 128, 0.8),
+            0 0 120px rgba(0, 255, 65, 0.4),
+            inset 0 0 60px rgba(255, 0, 128, 0.12);
+    }
+}
+
+/* Dimensional Rift */
+@keyframes dimensionalRift {
+    0% { 
+        background-position: 0% 0%;
+        border-image-source: linear-gradient(90deg, 
+            var(--color-primary-cyan), 
+            var(--color-primary-magenta), 
+            var(--color-primary-yellow), 
+            var(--color-primary-green),
+            var(--color-primary-cyan));
+    }
+    25% { 
+        background-position: 25% 25%;
+        border-image-source: linear-gradient(90deg, 
+            var(--color-primary-magenta), 
+            var(--color-primary-yellow), 
+            var(--color-primary-green), 
+            var(--color-primary-cyan),
+            var(--color-primary-magenta));
+    }
+    50% { 
+        background-position: 50% 50%;
+        border-image-source: linear-gradient(90deg, 
+            var(--color-primary-yellow), 
+            var(--color-primary-green), 
+            var(--color-primary-cyan), 
+            var(--color-primary-magenta),
+            var(--color-primary-yellow));
+    }
+    75% { 
+        background-position: 75% 75%;
+        border-image-source: linear-gradient(90deg, 
+            var(--color-primary-green), 
+            var(--color-primary-cyan), 
+            var(--color-primary-magenta), 
+            var(--color-primary-yellow),
+            var(--color-primary-green));
+    }
+    100% { 
+        background-position: 100% 100%;
+        border-image-source: linear-gradient(90deg, 
+            var(--color-primary-cyan), 
+            var(--color-primary-magenta), 
+            var(--color-primary-yellow), 
+            var(--color-primary-green),
+            var(--color-primary-cyan));
+    }
+}
+
+/* Quantum Scanlines */
+@keyframes quantumScanlines {
+    0% { 
+        background-position: 0px 0px, 0px 0px;
+        opacity: 0.3;
+    }
+    50% { 
+        background-position: 0px 2px, 10px 0px;
+        opacity: 0.5;
+    }
+    100% { 
+        background-position: 0px 4px, 20px 0px;
+        opacity: 0.3;
+    }
+}
+
+/* Particle Field */
+@keyframes particleField {
+    0% { 
+        background-position: 0px 0px;
+        opacity: 0.6;
+    }
+    50% { 
+        background-position: 100px 50px;
+        opacity: 0.8;
+    }
+    100% { 
+        background-position: 200px 100px;
+        opacity: 0.6;
+    }
+}
+
+/* HYPERION Glitch Matrix */
+@keyframes hyperionGlitchMatrix {
+    0%, 90%, 100% {
+        transform: translate(0, 0) perspective(1000px) rotateX(5deg);
+        text-shadow: 
+            var(--glow-nuclear) var(--color-text-plasma),
+            2px 2px 0 rgba(0, 255, 255, 0.5),
+            -2px -2px 0 rgba(255, 0, 128, 0.5);
+    }
+    5% {
+        transform: translate(-3px, 2px) perspective(1000px) rotateX(5deg);
+        text-shadow: 
+            var(--glow-nuclear) var(--color-primary-magenta),
+            3px -3px 0 rgba(0, 255, 255, 0.7),
+            -3px 3px 0 rgba(0, 255, 65, 0.6);
+    }
+    10% {
+        transform: translate(2px, -3px) perspective(1000px) rotateX(5deg);
+        text-shadow: 
+            var(--glow-nuclear) var(--color-primary-cyan),
+            -2px 2px 0 rgba(255, 255, 0, 0.7),
+            2px -2px 0 rgba(255, 0, 128, 0.6);
+    }
+    15% {
+        transform: translate(-1px, 1px) perspective(1000px) rotateX(5deg);
+        text-shadow: 
+            var(--glow-nuclear) var(--color-primary-green),
+            1px 1px 0 rgba(255, 0, 128, 0.8),
+            -1px -1px 0 rgba(0, 255, 255, 0.7);
+    }
+}
+
+/* Quantum Flicker */
+@keyframes quantumFlicker {
+    0%, 19.999%, 22%, 62.999%, 64%, 87.999%, 89%, 100% { 
+        opacity: 1; 
+        filter: brightness(1) saturate(1.2);
+    }
+    20%, 21.999%, 63%, 63.999%, 88%, 88.999% { 
+        opacity: 0.85; 
+        filter: brightness(1.2) saturate(1.4);
+    }
+}
+
+/* Dimensional Phase */
+@keyframes dimensionalPhase {
+    0% { 
+        background-position: 0% 0%;
+        transform: perspective(1000px) rotateX(5deg) rotateY(0deg);
+    }
+    25% { 
+        background-position: 50% 50%;
+        transform: perspective(1000px) rotateX(5deg) rotateY(1deg);
+    }
+    50% { 
+        background-position: 100% 100%;
+        transform: perspective(1000px) rotateX(5deg) rotateY(0deg);
+    }
+    75% { 
+        background-position: 50% 0%;
+        transform: perspective(1000px) rotateX(5deg) rotateY(-1deg);
+    }
+    100% { 
+        background-position: 0% 0%;
+        transform: perspective(1000px) rotateX(5deg) rotateY(0deg);
+    }
+}
+
+/* Energy Pulse */
+@keyframes energyPulse {
+    0%, 100% { 
+        filter: brightness(1) saturate(1.2);
+        transform: scale(1);
+    }
+    50% { 
+        filter: brightness(1.3) saturate(1.5);
+        transform: scale(1.02);
+    }
+}
+
+/* Conic Rotation */
+@keyframes conicRotation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Ultimate Rainbow Flow */
+@keyframes ultimateRainbowFlow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 300% 50%; }
+}
+
+/* Quantum Field Rotation */
+@keyframes quantumFieldRotation {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(180deg) scale(1.1); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+/* Holographic Interference */
+@keyframes holographicInterference {
+    0% { 
+        background-position: 0% 0%;
+        opacity: 0.3;
+    }
+    50% { 
+        background-position: 50% 50%;
+        opacity: 0.5;
+    }
+    100% { 
+        background-position: 100% 100%;
+        opacity: 0.3;
+    }
+}
+
+/* Liquid Progress Fill */
+@keyframes liquidProgressFill {
+    from { width: 0; opacity: 0.8; }
+    to { opacity: 1; }
+}
+
+/* Liquid Flow */
+@keyframes liquidFlow {
+    0%, 100% { 
+        background-position: 0% 0%;
+        filter: hue-rotate(0deg);
+    }
+    33% { 
+        background-position: 100% 0%;
+        filter: hue-rotate(10deg);
+    }
+    66% { 
+        background-position: 200% 0%;
+        filter: hue-rotate(-10deg);
+    }
+}
+
+/* Liquid Ripple */
+@keyframes liquidRipple {
+    0%, 100% { 
+        transform: translateY(-50%) scaleX(1);
+        opacity: 0.7;
+    }
+    50% { 
+        transform: translateY(-50%) scaleX(1.2);
+        opacity: 1;
+    }
+}
+
+/* Quantum Rotation */
+@keyframes quantumRotation {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Text Shimmer */
+@keyframes textShimmer {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+/* Electrical Grid */
+@keyframes electricalGrid {
+    0% { 
+        background-position: 0px 0px, 0px 0px;
+        opacity: 0.7;
+    }
+    50% { 
+        background-position: 7px 7px, 7px 7px;
+        opacity: 1;
+    }
+    100% { 
+        background-position: 15px 15px, 15px 15px;
+        opacity: 0.7;
+    }
+}
+
+/* Header Pulse */
+@keyframes headerPulse {
+    0%, 100% { 
+        text-shadow: var(--glow-intense) var(--color-primary-yellow);
+        filter: brightness(1);
+    }
+    50% { 
+        text-shadow: var(--glow-nuclear) var(--color-primary-laser-yellow);
+        filter: brightness(1.3);
+    }
+}
+
+/* Ultimate Rainbow Flow Reverse */
+@keyframes ultimateRainbowFlowReverse {
+    0% { background-position: 400% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Dimensional Rotation */
+@keyframes dimensionalRotation {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(180deg) scale(1.2); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+/* Dimensional Pulse */
+@keyframes dimensionalPulse {
+    0%, 100% { 
+        transform: perspective(400px) rotateX(3deg) scaleY(1);
+        filter: brightness(1);
+    }
+    50% { 
+        transform: perspective(400px) rotateX(3deg) scaleY(1.1);
+        filter: brightness(1.2);
+    }
+}
+
+/* Testimonial Quantum Field */
+@keyframes testimonialQuantumField {
+    0% { transform: rotate(0deg) scale(1); }
+    25% { transform: rotate(90deg) scale(1.05); }
+    50% { transform: rotate(180deg) scale(1.1); }
+    75% { transform: rotate(270deg) scale(1.05); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+/* Testimonial Title Shimmer */
+@keyframes testimonialTitleShimmer {
+    0%, 100% { 
+        background-position: 0% 50%;
+        filter: brightness(1);
+    }
+    50% { 
+        background-position: 100% 50%;
+        filter: brightness(1.3);
+    }
+}
+
+/* Quantum Particles */
+@keyframes quantumParticles {
+    0%, 100% { 
+        transform: translateY(0px) rotate(0deg);
+        opacity: 0.3;
+    }
+    25% { 
+        transform: translateY(-10px) rotate(90deg);
+        opacity: 0.6;
+    }
+    50% { 
+        transform: translateY(-5px) rotate(180deg);
+        opacity: 0.8;
+    }
+    75% { 
+        transform: translateY(-15px) rotate(270deg);
+        opacity: 0.4;
+    }
+}
+
+/* Star Constellation */
+@keyframes starConstellation {
+    0%, 100% { 
+        text-shadow: 
+            var(--glow-intense) currentColor,
+            0 0 30px currentColor;
+        transform: scale(1);
+    }
+    50% { 
+        text-shadow: 
+            var(--glow-nuclear) currentColor,
+            0 0 50px currentColor;
+        transform: scale(1.1);
+    }
+}
+
+/* Star Twinkle */
+@keyframes starTwinkle {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0.7; }
+}
+
+/* Ultimate Energy Rotation */
+@keyframes ultimateEnergyRotation {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(180deg) scale(1.1); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+/* Power Grid */
+@keyframes powerGrid {
+    0% { 
+        background-position: 0px 0px, 0px 0px, 0px 0px, 50px 50px;
+        opacity: 0.7;
+    }
+    50% { 
+        background-position: 12px 12px, 12px 12px, 50px 50px, 0px 0px;
+        opacity: 1;
+    }
+    100% { 
+        background-position: 25px 25px, 25px 25px, 100px 100px, 100px 100px;
+        opacity: 0.7;
+    }
+}
+
+/* Ultimate Neon Flux */
+@keyframes ultimateNeonFlux {
+    0%, 100% {
+        text-shadow: 
+            var(--glow-nuclear) var(--color-primary-magenta),
+            0 0 120px rgba(255, 0, 128, 0.9);
+        filter: brightness(1) saturate(1.2);
+    }
+    50% {
+        text-shadow: 
+            var(--glow-dimensional) var(--color-primary-hot-pink),
+            0 0 200px rgba(255, 0, 128, 1);
+        filter: brightness(1.4) saturate(1.6);
+    }
+}
+
+/* Dimensional Glitch */
+@keyframes dimensionalGlitch {
+    0%, 95%, 100% { 
+        transform: translate(0, 0);
+        filter: hue-rotate(0deg);
+    }
+    2% { 
+        transform: translate(2px, -1px);
+        filter: hue-rotate(90deg);
+    }
+    4% { 
+        transform: translate(-1px, 2px);
+        filter: hue-rotate(180deg);
+    }
+    6% { 
+        transform: translate(1px, 1px);
+        filter: hue-rotate(270deg);
+    }
+}
+
+/* Critical Warning */
+@keyframes criticalWarning {
+    0%, 100% { 
+        color: var(--color-primary-acid-green);
+        text-shadow: var(--glow-intense) var(--color-primary-green);
+    }
+    50% { 
+        color: var(--color-primary-laser-yellow);
+        text-shadow: var(--glow-intense) var(--color-primary-yellow);
+    }
+}
+
+/* Warning Pulse */
+@keyframes warningPulse {
+    0%, 100% { 
+        transform: scale(1);
+        filter: brightness(1);
+    }
+    50% { 
+        transform: scale(1.05);
+        filter: brightness(1.3);
+    }
+}
+
+/* Tech Spec Shimmer */
+@keyframes techSpecShimmer {
+    0%, 100% { 
+        background-position: 0% 50%;
+        filter: brightness(1);
+    }
+    50% { 
+        background-position: 100% 50%;
+        filter: brightness(1.2);
+    }
+}
+
+/* Quantum Circuits */
+@keyframes quantumCircuits {
+    0% { 
+        background-position: 0px 0px, 0px 0px, 0px 0px, 100px 100px, 0px 100px, 100px 0px;
+        opacity: 0.8;
+    }
+    50% { 
+        background-position: 10px 10px, 10px 10px, 100px 100px, 0px 0px, 100px 0px, 0px 100px;
+        opacity: 1;
+    }
+    100% { 
+        background-position: 20px 20px, 20px 20px, 200px 200px, 200px 200px, 200px 200px, 200px 200px;
+        opacity: 0.8;
+    }
+}
+
+/* Ultimate Dimensional Rotation */
+@keyframes ultimateDimensionalRotation {
+    0% { transform: rotate(0deg) scale(1); }
+    50% { transform: rotate(180deg) scale(1.3); }
+    100% { transform: rotate(360deg) scale(1); }
+}
+
+/* Ultimate Footer Flow */
+@keyframes ultimateFooterFlow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 500% 50%; }
+}
+
+/* Energy Discharge */
+@keyframes energyDischarge {
+    0%, 80%, 100% { 
+        filter: brightness(1) saturate(1.2);
+        box-shadow: inset 0 0 30px rgba(0,0,0,0.4), 0 0 50px currentColor;
+    }
+    85%, 95% { 
+        filter: brightness(1.5) saturate(1.8);
+        box-shadow: inset 0 0 50px rgba(0,0,0,0.2), 0 0 100px currentColor;
+    }
+}
+
+/* Footer Quantum Field */
+@keyframes footerQuantumField {
+    0%, 100% {
+        box-shadow: 
+            0 0 50px rgba(0, 255, 255, 1),
+            0 0 100px rgba(0, 255, 255, 0.6),
+            inset 0 0 30px rgba(0, 255, 255, 0.3);
+        filter: brightness(1) saturate(1.2);
+    }
+    50% {
+        box-shadow: 
+            0 0 80px rgba(0, 255, 255, 1.2),
+            0 0 160px rgba(0, 255, 255, 0.8),
+            inset 0 0 50px rgba(0, 255, 255, 0.5);
+        filter: brightness(1.2) saturate(1.4);
+    }
+}
+
+/* Text Breathing */
+@keyframes textBreathing {
+    0%, 100% { 
+        transform: scale(1);
+        letter-spacing: 1px;
+    }
+    50% { 
+        transform: scale(1.02);
+        letter-spacing: 1.5px;
+    }
+}
+
+/* Footer Particle Field */
+@keyframes footerParticleField {
+    0% { 
+        background-position: 0px 0px;
+        opacity: 0.6;
+    }
+    50% { 
+        background-position: 30px 30px;
+        opacity: 0.8;
+    }
+    100% { 
+        background-position: 60px 60px;
+        opacity: 0.6;
+    }
+}
+
+/* --- ULTIMATE RESPONSIVENESS --- */
+@media (max-width: 1400px) {
+    :root {
+        --glow-nuclear: 0 0 60px;
+        --glow-dimensional: 0 0 100px;
+    }
+    
+    table[width="100%"][bgcolor="#000011"] > tr > td {
+        flex: 1 1 45%;
+        min-width: 280px;
+    }
+}
+
+@media (max-width: 1024px) {
+    body {
+        background-size: 
+            400px 400px,
+            600px 600px, 
+            500px 500px,
+            700px 700px,
+            1000px 1000px,
+            15px 15px,
+            100% 100%;
+    }
+    
+    font[size="9"] { 
+        font-size: clamp(2em, 8vw, 4.5em);
+        transform: perspective(800px) rotateX(3deg);
+    }
+    
+    font[size="8"] { 
+        font-size: clamp(2em, 7vw, 4em);
+        transform: perspective(600px) rotateY(1deg);
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+        background-size: 
+            300px 300px,
+            400px 400px, 
+            350px 350px,
+            500px 500px,
+            800px 800px,
+            12px 12px,
+            100% 100%;
+    }
+
+    /* Mobile Font Adjustments */
+    font[size="9"] { 
+        font-size: clamp(1.8em, 8vw, 3.5em);
+        letter-spacing: 2px;
+        transform: perspective(600px) rotateX(2deg);
+    }
+    font[size="8"] { 
+        font-size: clamp(1.6em, 7vw, 3em);
+        letter-spacing: 3px;
+    }
+    font[size="7"] { font-size: clamp(1.4em, 6vw, 2.5em); }
+    font[size="6"] { font-size: clamp(1.3em, 5vw, 2em); }
+    font[size="5"] { font-size: clamp(1.1em, 4vw, 1.8em); }
+    font[size="4"] { font-size: clamp(1em, 3vw, 1.4em); }
+
+    /* Mobile Layout Stacking */
+    table[width="100%"] > tr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    table[width="100%"] > tr > td[width="33%"] {
+        width: 100% !important;
+        margin: 0;
+        padding: 25px;
+        min-height: auto;
+    }
+
+    /* Mobile Status Matrix */
+    center > table[bgcolor="#001122"] {
+        width: calc(100% - 20px);
+        padding: 15px;
+        margin: 20px auto;
+        border-radius: 15px;
+        transform: perspective(800px) rotateX(2deg);
+    }
+    
+    center > table[bgcolor="#001122"] tr > td {
+        display: block;
+        width: 100% !important;
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+
+    /* Mobile Testimonials */
+    center > table[bgcolor="#001122"][width="95%"]:last-of-type {
+        width: calc(100% - 20px);
+        padding: 20px;
+        transform: perspective(600px) rotateX(1deg);
+    }
+    
+    center > table[bgcolor="#001122"][width="95%"]:last-of-type table[width="100%"] {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-spacing: 0;
+    }
+    
+    center > table[bgcolor="#001122"][width="95%"]:last-of-type table[width="100%"] td {
+        width: 100% !important;
+        margin: 0;
+        padding: 20px;
+    }
+
+    /* Mobile Action Panel */
+    center > table[bgcolor="#000000"][width="100%"]:last-of-type {
+        width: calc(100% - 20px);
+        padding: 25px;
+        margin: 40px auto;
+        transform: perspective(600px) rotateX(2deg);
+    }
+    
+    center > table[bgcolor="#000000"][width="100%"]:last-of-type table[cellpadding="15"] {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        border-spacing: 0;
+    }
+    
+    center > table[bgcolor="#000000"][width="100%"]:last-of-type table[cellpadding="15"] td {
+        width: 100% !important;
+        margin: 0;
+        padding: 25px;
+    }
+    
+    center > table[bgcolor="#000000"][width="100%"]:last-of-type table[cellpadding="15"] td::after {
+        display: none;
+    }
+
+    /* Mobile Tech Specs */
+    table[width="100%"][bgcolor="#000011"] {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        transform: perspective(600px) rotateX(1deg);
+    }
+    
+    table[width="100%"][bgcolor="#000011"] > tr > td {
+        flex: none;
+        width: 100% !important;
+        min-width: unset;
+        text-align: left !important;
+        padding: 25px;
+    }
+
+    /* Mobile Footer */
+    center > font[size="3"][color="#00ffff"]:last-of-type {
+        padding: 25px;
+        font-size: 0.95em;
+        margin: 30px auto 60px auto;
+    }
+}
+
+/* Ultra-Mobile Adjustments */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+        background-size: 
+            200px 200px,
+            300px 300px, 
+            250px 250px,
+            350px 350px,
+            600px 600px,
+            10px 10px,
+            100% 100%;
+    }
+
+    font[size="9"] { 
+        font-size: 1.6em; 
+        letter-spacing: 1px;
+        transform: none;
+    }
+    font[size="8"] { 
+        font-size: 1.4em;
+        letter-spacing: 1px;
+        transform: none;
+    }
+    font[size="5"] { font-size: 1em; }
+    
+    center > table[bgcolor="#000000"][width="100%"]:last-of-type font[size="8"] {
+        font-size: 2em;
+        letter-spacing: 1px;
+    }
+    
+    center > table[bgcolor="#000000"][width="100%"]:last-of-type font[size="4"] {
+        font-size: 0.9em;
+    }
+    
+    table[width="100%"] > tr > td[width="33%"] {
+        padding: 20px;
+    }
+    
+    center > font[size="3"][color="#00ffff"]:last-of-type {
+        padding: 20px;
+        font-size: 0.85em;
+        line-height: 1.8;
+    }
+}
+
+/* High-DPI Display Optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    font {
+        -webkit-font-smoothing: subpixel-antialiased;
+        text-rendering: optimizeSpeed;
+    }
+    
+/* High-DPI Display Optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    font {
+        -webkit-font-smoothing: subpixel-antialiased;
+        text-rendering: optimizeSpeed;
+    }
+    
+    :root {
+        --glow-subtle: 0 0 3px;
+        --glow-standard: 0 0 8px;
+        --glow-intense: 0 0 16px;
+        --glow-extreme: 0 0 32px;
+        --glow-nuclear: 0 0 64px;
+        --glow-dimensional: 0 0 96px;
+    }
+    
+    body {
+        filter: contrast(1.05) brightness(1.02) saturate(1.1);
+    }
+}
+
+/* Reduced Motion Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+    
+    body {
+        animation: none;
+        background-attachment: scroll;
+    }
+    
+    font[size="9"][color="#ffffff"] {
+        animation: none;
+        filter: none;
+    }
+}
+
+/* Dark Theme Preference */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-bg-void: #000000;
+        --color-bg-deep-space: #000003;
+        --color-bg-quantum-field: #000008;
+    }
+}
+
+/* Light Theme Adaptation */
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-bg-void: #0a0a0a;
+        --color-bg-deep-space: #0f0f0f;
+        --color-bg-quantum-field: #1a1a1a;
+    }
+    
+    body {
+        filter: contrast(1.2) brightness(0.9) saturate(1.3);
+    }
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: white !important;
+        color: black !important;
+        filter: none !important;
+        animation: none !important;
+    }
+    
+    *,
+    *::before,
+    *::after {
+        animation: none !important;
+        transition: none !important;
+        transform: none !important;
+        filter: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        background: transparent !important;
+        border: 1px solid black !important;
+    }
+    
+    font {
+        color: black !important;
+        text-shadow: none !important;
+    }
+    
+    table {
+        border-collapse: collapse !important;
+    }
+    
+    td {
+        border: 1px solid black !important;
+        background: white !important;
+    }
+}
+
+/* Performance Optimizations */
+@media (max-width: 768px) and (max-height: 1024px) {
+    body {
+        will-change: transform;
+        transform: translateZ(0);
+    }
+    
+    table,
+    td,
+    font {
+        will-change: transform, opacity;
+        transform: translateZ(0);
+    }
+    
+    *::before,
+    *::after {
+        will-change: transform, opacity;
+    }
+}
+
+/* Ultra-Wide Display Support */
+@media (min-width: 2560px) {
+    body {
+        background-size: 
+            800px 800px,
+            1000px 1000px, 
+            900px 900px,
+            1200px 1200px,
+            1600px 1600px,
+            30px 30px,
+            100% 100%;
+    }
+    
+    center > table[bgcolor="#001122"],
+    center > table[bgcolor="#001122"][width="95%"]:last-of-type,
+    center > table[bgcolor="#000000"][width="100%"]:last-of-type,
+    table[width="100%"][bgcolor="#000011"] {
+        max-width: 2000px;
+    }
+    
+    font[size="9"] { 
+        font-size: clamp(4em, 8vw, 8em);
+    }
+    
+    font[size="8"] { 
+        font-size: clamp(3.5em, 7vw, 7em);
+    }
+}
+
+/* Accessibility Enhancements */
+@media (prefers-contrast: high) {
+    :root {
+        --glow-subtle: 0 0 8px;
+        --glow-standard: 0 0 15px;
+        --glow-intense: 0 0 25px;
+        --glow-extreme: 0 0 45px;
+        --glow-nuclear: 0 0 85px;
+        --glow-dimensional: 0 0 125px;
+    }
+    
+    body {
+        filter: contrast(1.5) brightness(1.1) saturate(1.4);
+    }
+    
+    font {
+        text-shadow: var(--glow-standard) currentColor, 0 0 2px currentColor;
+    }
+    
+    a {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+    }
+    
+    table,
+    td {
+        border-width: 3px !important;
+    }
+}
+
+/* Focus Management */
+*:focus {
+    outline: 3px solid var(--color-primary-cyan);
+    outline-offset: 2px;
+    z-index: 1000;
+}
+
+a:focus,
+td:focus {
+    outline: 3px solid var(--color-primary-laser-yellow);
+    outline-offset: 3px;
+    box-shadow: 
+        0 0 20px var(--color-primary-laser-yellow),
+        var(--glow-intense) var(--color-primary-laser-yellow);
+}
+
+/* Touch Device Optimizations */
+@media (hover: none) and (pointer: coarse) {
+    td,
+    a {
+        transition-duration: 0.1s;
+    }
+    
+    table[width="90%"][cellpadding="8"] td,
+    center > table[cellpadding="3"][width="80%"] td,
+    center > table[bgcolor="#000000"][width="100%"]:last-of-type table[cellpadding="15"] td {
+        padding: 30px;
+        min-height: 60px;
+        font-size: 1.1em;
+    }
+    
+    /* Remove hover-dependent effects for touch */
+    *:hover {
+        transform: none !important;
+    }
+    
+    /* Add touch-friendly active states */
+    *:active {
+        transform: scale(0.98);
+        filter: brightness(1.2);
+    }
+}
+
+/* GPU Acceleration Hints */
+.gpu-accelerated,
+table[width="100%"][cellpadding="0"][cellspacing="0"][bgcolor="#000000"],
+center > table[bgcolor="#001122"],
+center > table[bgcolor="#000000"][width="100%"]:last-of-type {
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+/* Fallbacks for Older Browsers */
+@supports not (backdrop-filter: blur(1px)) {
+    body {
+        background-image: none;
+        background-color: var(--color-bg-void);
+    }
+    
+    center > table[bgcolor="#001122"] td,
+    table[width="95%"][cellpadding="8"] td,
+    center > font[size="3"][color="#00ffff"]:last-of-type {
+        backdrop-filter: none;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+}
+
+@supports not (background-clip: text) {
+    font[size="9"][color="#ffffff"],
+    center > table[bgcolor="#001122"][width="95%"]:last-of-type font[size="6"],
+    center > table[bgcolor="#000000"][width="100%"]:last-of-type font[size="8"] {
+        background: none;
+        color: var(--color-text-plasma);
+    }
+}
+
+@supports not (mix-blend-mode: screen) {
+    table[width="100%"][cellpadding="0"][cellspacing="0"][bgcolor="#000000"]::before,
+    table[width="100%"][cellpadding="0"][cellspacing="0"][bgcolor="#000000"]::after,
+    center > table[bgcolor="#001122"]::before {
+        mix-blend-mode: normal;
+        opacity: 0.3;
+    }
+}
+
+/* CSS Grid Fallback */
+@supports not (display: grid) {
+    table[width="100%"][bgcolor="#000011"] {
+        display: table;
+        width: 100%;
+    }
+    
+    table[width="100%"][bgcolor="#000011"] > tr {
+        display: table-row;
+    }
+    
+    table[width="100%"][bgcolor="#000011"] > tr > td {
+        display: table-cell;
+        width: 33.333%;
+        vertical-align: top;
+    }
+}
+
+/* Flexbox Fallback */
+@supports not (display: flex) {
+    table[width="100%"] > tr {
+        display: table-row;
+    }
+    
+    table[width="100%"] > tr > td[width="33%"] {
+        display: table-cell;
+        width: 33.333%;
+        vertical-align: top;
+        float: none;
+    }
+}
+
+/* Transform 3D Fallback */
+@supports not (transform: perspective(1000px)) {
+    table[width="100%"][cellpadding="0"][cellspacing="0"][bgcolor="#000000"],
+    center > table[bgcolor="#001122"],
+    center > table[bgcolor="#000000"][width="100%"]:last-of-type,
+    table[width="100%"][bgcolor="#000011"] {
+        transform: none;
+    }
+    
+    font[size="9"] {
+        transform: none;
+    }
+}
+
+/* Filter Effects Fallback */
+@supports not (filter: blur(1px)) {
+    body,
+    *::before,
+    *::after {
+        filter: none !important;
+    }
+    
+    font[size="9"][color="#ffffff"] {
+        filter: none;
+        text-shadow: var(--glow-extreme) var(--color-text-plasma);
+    }
+}
+
+/* Animation Performance Optimization */
+@media (max-width: 768px) {
+    @keyframes quantumFieldPulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.9; }
+    }
+    
+    @keyframes headerQuantumField {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.95; }
+    }
+    
+    /* Simplified animations for mobile */
+    table[width="100%"][cellpadding="0"][cellspacing="0"] + table td {
+        animation: ultimateRainbowFlow 8s linear infinite;
+    }
+    
+    center > table[bgcolor="#001122"] {
+        animation: none;
+    }
+    
+    body {
+        animation: quantumFieldPulse 30s infinite ease-in-out;
+    }
+}
+
+/* Critical Performance Hints */
+html {
+    font-display: swap;
+}
+
+body {
+    contain: layout style paint;
+}
+
+table {
+    contain: layout paint;
+}
+
+font {
+    contain: style;
+}
+
+/* End of Ultimate HYPERION CSS */
+
+/*
+ * TRANSMISSION COMPLETE
+ * Reality Matrix: FULLY LOADED
+ * Dimensional Gateway: ACTIVE
+ * Quantum Effects: MAXIMUM OVERDRIVE
+ * User Experience: TRANSCENDENT
+ * 
+ * Welcome to the ultimate cyberpunk experience.
+ * Your consciousness has been digitally enhanced.
+ * Prepare for sensory overload.
+ * 
+ * ⚡ HYPERION SYSTEMS ONLINE ⚡
+ */

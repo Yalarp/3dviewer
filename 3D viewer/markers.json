@@ -1,0 +1,50 @@
+[
+  {
+    "id": "oneHouse",
+    "name": "One House",
+    "latitude": 21.09663013956206,
+    "longitude": 79.10918670105842,
+    "address": "Main Road, Armori, Maharashtra",
+    "isMain": true
+  },
+  {
+    "id": "marker1",
+    "name": "Whispering Grove",
+    "latitude": 21.096700,
+    "longitude": 79.109250,
+    "address": "Near the old banyan tree",
+    "isMain": false
+  },
+  {
+    "id": "marker2",
+    "name": "Ancient Spring",
+    "latitude": 21.096580,
+    "longitude": 79.109100,
+    "address": "Behind the rocky outcrop",
+    "isMain": false
+  },
+  {
+    "id": "marker3",
+    "name": "Hidden Cavern",
+    "latitude": 21.096500,
+    "longitude": 79.109300,
+    "address": "Entrance by the river bend",
+    "isMain": false
+  },
+  {
+    "id": "marker4",
+    "name": "Sunny Meadow",
+    "latitude": 21.096750,
+    "longitude": 79.109150,
+    "address": "Open field to the north",
+    "isMain": false
+  },
+  {
+    "id": "marker5",
+    "name": "Sparkling Falls",
+    "latitude": 21.096680,
+    "longitude": 79.109050,
+    "address": "West side of the forest",
+    "isMain": false
+  }
+]

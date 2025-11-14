@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eFleet Systems - Fleet Management</title>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lenis/1.0.45/lenis.min.js" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+        
+        :root {
+            --bg-color: #f0f2f5; /* Light background for a modern, minimal look */
+            --text-color: #333; /* Darker text for contrast */
+            --header-bg: rgba(255, 255, 255, 0.9);
+            --card-bg: #ffffff;
+            --border-color: #e0e0e0;
+            --primary-color: #007bff; /* A standard blue for primary elements */
+            --secondary-color: #6c757d; /* A muted grey for secondary elements */
+            --transition-speed: 0.2s; /* Faster transitions for a snappier feel */
+            --box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            --hover-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .hero-section {
+            height: 100vh;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #e0f7fa 0%, #c1d5e0 100%); /* Soft, clean gradient */
+            color: #212529; /* Darker text for hero */
+            text-align: center;
+        }
+
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+            background: var(--header-bg);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            border-bottom: 1px solid var(--border-color);
+            transition: background var(--transition-speed) ease;
+        }
+        /* Header slightly darker on scroll */
+        body.scrolled .header {
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .logo i {
+            margin-right: 10px;
+            font-size: 28px;
+            color: var(--primary-color);
+        }
+
+        .version {
+            background: var(--primary-color);
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .hero-content {
+            z-index: 2;
+            padding: 0 20px;
+        }
+
+        .hero-title {
+            font-size: clamp(2.5rem, 6vw, 5rem);
+            font-weight: 800;
+            margin-bottom: 15px;
+            color: #212529;
+            line-height: 1.1;
+        }
+
+        .hero-subtitle {
+            font-size: clamp(1rem, 2.5vw, 1.5rem);
+            margin-bottom: 30px;
+            color: var(--secondary-color);
+            font-weight: 400;
+        }
+
+        .explore-button {
+            background: var(--primary-color);
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            border: none;
+            transition: background var(--transition-speed) ease, transform var(--transition-speed) ease;
+            z-index: 3; /* Ensure it's above other hero elements */
+        }
+
+        .explore-button:hover {
+            background: #0056b3; /* Darker shade on hover */
+            transform: translateY(-2px);
+        }
+
+        /* Removed scroll-indicator as it's now a button */
+
+        .dashboard-section {
+            padding: 80px 30px;
+            background: var(--bg-color);
+            display: none; /* Hidden by default, shown in popup */
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+
+        .section-description {
+            text-align: center;
+            font-size: clamp(0.9rem, 2vw, 1.1rem);
+            margin-bottom: 60px;
+            color: var(--secondary-color);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .module-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 30px;
+            cursor: pointer;
+            transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease, border-color var(--transition-speed) ease;
+            box-shadow: var(--box-shadow);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .module-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--hover-shadow);
+            border-color: var(--primary-color);
+        }
+
+        .module-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+            color: #fff;
+            background: var(--primary-color);
+            transition: transform var(--transition-speed) ease;
+        }
+
+        .module-card:hover .module-icon {
+            transform: scale(1.05);
+        }
+
+        .config, .fleet, .booking, .account, .workshop, .mist-pro, .mist-2, .railway, .control-tower {
+            background: var(--primary-color);
+        }
+
+        .module-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 10px;
+        }
+
+        .module-description {
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+
+        .stats-section {
+            padding: 80px 30px;
+            background: var(--bg-color);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 30px 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: var(--box-shadow);
+            transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease, border-color var(--transition-speed) ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--hover-shadow);
+            border-color: var(--primary-color);
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 8px;
+            line-height: 1;
+        }
+
+        .stat-label {
+            color: var(--secondary-color);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 500;
+        }
+
+        /* Full-screen popup for modules */
+        .modules-popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8); /* Dark overlay */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10001; /* Above everything else */
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+
+        .modules-popup-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modules-popup-content {
+            background: var(--bg-color);
+            width: 90%;
+            max-width: 1400px;
+            height: 90vh; /* Take up most of the viewport height */
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            position: relative;
+            padding: 40px;
+            overflow-y: auto; /* Enable scrolling for content if needed */
+            transform: scale(0.95);
+            opacity: 0;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .modules-popup-overlay.active .modules-popup-content {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        .popup-close-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 2rem;
+            color: var(--secondary-color);
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+
+        .popup-close-button:hover {
+            color: var(--primary-color);
+        }
+
+        .popup-content-inner {
+            padding-top: 20px; /* Space for close button */
+        }
+
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .header {
+                padding: 10px 20px;
+            }
+            
+            .logo {
+                font-size: 20px;
+            }
+            
+            .version {
+                padding: 6px 12px;
+                font-size: 10px;
+            }
+
+            .hero-section {
+                padding: 0 20px;
+            }
+            
+            .hero-title {
+                font-size: 2rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.1rem;
+            }
+            
+            .explore-button {
+                padding: 12px 25px;
+                font-size: 0.9rem;
+            }
+
+            .dashboard-section, .stats-section {
+                padding: 60px 20px;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .module-card {
+                padding: 25px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .modules-popup-content {
+                width: 95%;
+                padding: 20px;
+            }
+
+            .popup-close-button {
+                font-size: 1.5rem;
+                top: 10px;
+                right: 10px;
+            }
+        }
+
+        /* Lenis-specific styles for smooth scrolling */
+        [data-lenis-prevent] {
+            overscroll-behavior: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <i class="fas fa-truck"></i>
+            eFleet Systems
+        </div>
+        <div class="version">
+            Version 1.0.0
+        </div>
+    </div>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Efficient Fleet Management</h1>
+            <p class="hero-subtitle">Streamlining Operations for Tomorrow's Logistics</p>
+            <button class="explore-button" id="exploreModulesButton">
+                <i class="fas fa-arrow-right"></i> Click to Explore Modules
+            </button>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <h2 class="section-title">Key Metrics</h2>
+        <p class="section-description">
+            Insights into our system's operational efficiency and scale.
+        </p>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" data-count="1247">0</div>
+                <div class="stat-label">Active Vehicles</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-count="99.9">0.0</div>
+                <div class="stat-label">System Uptime %</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-count="25632">0</div>
+                <div class="stat-label">Data Transactions</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" data-count="150">0</div>
+                <div class="stat-label">Clients Served</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modules-popup-overlay" id="modulesPopupOverlay">
+        <div class="modules-popup-content">
+            <button class="popup-close-button" id="closeModulesPopup">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="popup-content-inner">
+                <h2 class="section-title">Core Modules</h2>
+                <p class="section-description">
+                    Our intuitive system provides robust tools for comprehensive fleet oversight and control.
+                </p>
+                
+                <div class="dashboard-grid">
+                    <div class="module-card" onclick="handleModuleClick('eConfig')">
+                        <div class="module-icon config">
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="module-title">eConfig</div>
+                        <div class="module-description">System configuration and settings management for optimal operation.</div>
+                    </div>
+
+                    <div class="module-card" onclick="handleModuleClick('eFleet')">
+                        <div class="module-icon fleet">
+                            <i class="fas fa-bus"></i>
+                        </div>
+                        <div class="module-title">eFleet</div>
+                        <div class="module-description">Real-time vehicle tracking, status, and assignment management.</div>
+                    </div>
+
+                    <div class="module-card" onclick="handleModuleClick('eBooking')">
+                        <div class="module-icon booking">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="module-title">eBooking</div>
+                        <div class="module-description">Efficient scheduling and booking of vehicles and resources.</div>
+                    </div>
+
+                    <div class="module-card" onclick="handleModuleClick('eAccount')">
+                        <div class="module-icon account">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="module-title">eAccount</div>
+                        <div class="module-description">User and account management with secure access controls.</div>
+                    </div>
+
+                    <div class="module-card" onclick="handleModuleClick('eWorkshop')">
+                        <div class="module-icon workshop">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="module-title">eWorkshop</div>
+                        <div class="module-description">Maintenance scheduling, repair tracking, and spare parts inventory.</div>
+                    </div>
+
+                    <div class="module-card" onclick="handleModuleClick('eAnalytics')">
+                        <div class="module-icon mist-pro">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="module-title">eAnalytics</div>
+                        <div class="module-description">Performance reporting and data analysis for informed decision-making.</div>
+                    </div>
+
+                    <div class="module-card" onclick="handleModuleClick('eReporting')">
+                        <div class="module-icon mist-2">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="module-title">eReporting</div>
+                        <div class="module-description">Customizable reports for compliance, operations, and financial overview.</div>
+                    </div>
+
+                    <div class="module-card" onclick="handleModuleClick('eRail')">
+                        <div class="module-icon railway">
+                            <i class="fas fa-train"></i>
+                        </div>
+                        <div class="module-title">eRail</div>
+                        <div class="module-description">Specialized module for railway asset tracking and management.</div>
+                    </div>
+
+                    <div class="module-card" onclick="handleModuleClick('eControl')">
+                        <div class="module-icon control-tower">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </div>
+                        <div class="module-title">eControl</div>
+                        <div class="module-description">Centralized command interface for overall system monitoring and alerts.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Lenis for smooth scrolling
+        // Lenis will only initialize if the script has been deferred and loaded
+        if (typeof Lenis !== 'undefined') {
+            const lenis = new Lenis({
+                duration: 1.0,
+                easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+                smooth: true,
+                smoothTouch: false,
+                touchMultiplier: 1.5
+            });
+
+            function raf(time) {
+                lenis.raf(time);
+                requestAnimationFrame(raf);
+            }
+            requestAnimationFrame(raf);
+
+            // Add/remove 'scrolled' class to body for header transition
+            lenis.on('scroll', (e) => {
+                if (e.scroll > 50) {
+                    document.body.classList.add('scrolled');
+                } else {
+                    document.body.classList.remove('scrolled');
+                }
+            });
+        }
+
+        // --- Module Popup Logic ---
+        const exploreButton = document.getElementById('exploreModulesButton');
+        const modulesPopupOverlay = document.getElementById('modulesPopupOverlay');
+        const closeModulesPopupButton = document.getElementById('closeModulesPopup');
+
+        exploreButton.addEventListener('click', () => {
+            modulesPopupOverlay.classList.add('active');
+            // Disable body scrolling when popup is active
+            if (typeof Lenis !== 'undefined') {
+                lenis.stop();
+            } else {
+                document.body.style.overflow = 'hidden';
+            }
+        });
+
+        closeModulesPopupButton.addEventListener('click', () => {
+            modulesPopupOverlay.classList.remove('active');
+            // Re-enable body scrolling
+            if (typeof Lenis !== 'undefined') {
+                lenis.start();
+            } else {
+                document.body.style.overflow = '';
+            }
+        });
+
+        // Close popup if clicked outside content area
+        modulesPopupOverlay.addEventListener('click', (event) => {
+            if (event.target === modulesPopupOverlay) {
+                modulesPopupOverlay.classList.remove('active');
+                if (typeof Lenis !== 'undefined') {
+                    lenis.start();
+                } else {
+                    document.body.style.overflow = '';
+                }
+            }
+        });
+
+        // Handle Module Card Clicks within the popup
+        function handleModuleClick(moduleName) {
+            const moduleCards = modulesPopupOverlay.querySelectorAll('.module-card'); // Target cards within popup
+            moduleCards.forEach(card => {
+                const titleElement = card.querySelector('.module-title');
+                if (titleElement && titleElement.textContent.includes(moduleName.substring(1))) {
+                    card.style.transition = 'none';
+                    card.style.transform = 'scale(0.98)';
+                    card.style.boxShadow = '0 0 15px rgba(0, 123, 255, 0.4)';
+                    card.style.borderColor = '#007bff';
+
+                    setTimeout(() => {
+                        card.style.transform = '';
+                        card.style.boxShadow = '';
+                        card.style.borderColor = '';
+                        void card.offsetWidth;
+                        card.style.transition = '';
+                    }, 200);
+
+                    showNotification(`Opening ${moduleName.replace('e', '')} Module...`);
+                }
+            });
+        }
+
+        // Simple Notification System (unchanged from previous version)
+        function showNotification(message) {
+            let notification = document.getElementById('global-notification');
+            if (!notification) {
+                notification = document.createElement('div');
+                notification.id = 'global-notification';
+                document.body.appendChild(notification);
+            }
+            
+            notification.textContent = message;
+            notification.style.cssText = `
+                position: fixed;
+                bottom: 30px;
+                left: 50%;
+                transform: translateX(-50%) translateY(100px);
+                background: rgba(0, 123, 255, 0.9);
+                color: #fff;
+                padding: 12px 20px;
+                border-radius: 8px;
+                z-index: 10000;
+                transition: all 0.4s ease-out;
+                font-weight: 500;
+                font-size: 0.9rem;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+                box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+                opacity: 0;
+            `;
+            
+            setTimeout(() => {
+                notification.style.transform = 'translateX(-50%) translateY(0)';
+                notification.style.opacity = '1';
+            }, 50);
+
+            setTimeout(() => {
+                notification.style.transform = 'translateX(-50%) translateY(100px)';
+                notification.style.opacity = '0';
+            }, 2500);
+        }
+
+        // Counter animation for stats section (unchanged from previous version)
+        function animateCounters() {
+            const counters = document.querySelectorAll('[data-count]');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const target = parseFloat(entry.target.dataset.count);
+                        const duration = 1200;
+                        let start = 0;
+                        let startTime = null;
+
+                        function step(currentTime) {
+                            if (!startTime) startTime = currentTime;
+                            const progress = (currentTime - startTime) / duration;
+
+                            if (progress < 1) {
+                                let value = target * progress;
+                                if (target % 1 !== 0) {
+                                    entry.target.textContent = value.toFixed(1);
+                                } else {
+                                    entry.target.textContent = Math.floor(value);
+                                }
+                                requestAnimationFrame(step);
+                            } else {
+                                if (target % 1 !== 0) {
+                                    entry.target.textContent = target.toFixed(1);
+                                } else {
+                                    entry.target.textContent = target;
+                                }
+                            }
+                        }
+                        requestAnimationFrame(step);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.7 });
+
+            counters.forEach(counter => {
+                observer.observe(counter);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', animateCounters);
+    </script>
+</body>
+</html>
